@@ -1,0 +1,368 @@
+{
+  "A:\\": {
+    "entries": [
+      {
+        "attributes": 131072,
+        "kind": "dir",
+        "name": "DEFAULT",
+        "path": "A:\\DEFAULT",
+        "size": 0
+      },
+      {
+        "attributes": 131072,
+        "kind": "dir",
+        "name": "USENG",
+        "path": "A:\\USENG",
+        "size": 0
+      },
+      {
+        "attributes": 131072,
+        "kind": "dir",
+        "name": "BUNDLE",
+        "path": "A:\\BUNDLE",
+        "size": 0
+      },
+      {
+        "attributes": 131072,
+        "kind": "dir",
+        "name": "PHO",
+        "path": "A:\\PHO",
+        "size": 0
+      },
+      {
+        "attributes": 131072,
+        "kind": "dir",
+        "name": "ETC",
+        "path": "A:\\ETC",
+        "size": 0
+      }
+    ],
+    "kind": "dir"
+  },
+  "A:\\BUNDLE": {
+    "entries": [
+      {
+        "attributes": 131072,
+        "kind": "dir",
+        "name": "SY",
+        "path": "A:\\BUNDLE\\SY",
+        "size": 0
+      },
+      {
+        "attributes": 131072,
+        "kind": "dir",
+        "name": "LD",
+        "path": "A:\\BUNDLE\\LD",
+        "size": 0
+      },
+      {
+        "attributes": 131072,
+        "kind": "dir",
+        "name": "TM",
+        "path": "A:\\BUNDLE\\TM",
+        "size": 0
+      },
+      {
+        "attributes": 131072,
+        "kind": "dir",
+        "name": "G1",
+        "path": "A:\\BUNDLE\\G1",
+        "size": 0
+      },
+      {
+        "attributes": 131072,
+        "kind": "dir",
+        "name": "G2",
+        "path": "A:\\BUNDLE\\G2",
+        "size": 0
+      },
+      {
+        "attributes": 131072,
+        "kind": "dir",
+        "name": "G3",
+        "path": "A:\\BUNDLE\\G3",
+        "size": 0
+      },
+      {
+        "attributes": 131072,
+        "kind": "dir",
+        "name": "G4",
+        "path": "A:\\BUNDLE\\G4",
+        "size": 0
+      }
+    ],
+    "kind": "dir"
+  },
+  "A:\\BUNDLE\\G1": {
+    "entries": [
+      {
+        "attributes": 65536,
+        "kind": "file",
+        "name": "135800G1.MBA",
+        "path": "A:\\BUNDLE\\G1\\135800G1.MBA",
+        "size": 2179072
+      }
+    ],
+    "kind": "dir"
+  },
+  "A:\\BUNDLE\\G2": {
+    "entries": [
+      {
+        "attributes": 65536,
+        "kind": "file",
+        "name": "135800G2.MBA",
+        "path": "A:\\BUNDLE\\G2\\135800G2.MBA",
+        "size": 1302528
+      }
+    ],
+    "kind": "dir"
+  },
+  "A:\\BUNDLE\\G3": {
+    "entries": [
+      {
+        "attributes": 65536,
+        "kind": "file",
+        "name": "135800G3.MBA",
+        "path": "A:\\BUNDLE\\G3\\135800G3.MBA",
+        "size": 4128768
+      },
+      {
+        "attributes": 65536,
+        "kind": "file",
+        "name": "DRAW.INFO1",
+        "path": "A:\\BUNDLE\\G3\\DRAW.INFO1",
+        "size": 844800
+      },
+      {
+        "attributes": 65536,
+        "kind": "file",
+        "name": "DRAW.INFO2",
+        "path": "A:\\BUNDLE\\G3\\DRAW.INFO2",
+        "size": 1920
+      },
+      {
+        "attributes": 65536,
+        "kind": "file",
+        "name": "DRAW.INFO3",
+        "path": "A:\\BUNDLE\\G3\\DRAW.INFO3",
+        "size": 2
+      }
+    ],
+    "kind": "dir"
+  },
+  "A:\\BUNDLE\\G4": {
+    "entries": [
+      {
+        "attributes": 65536,
+        "kind": "file",
+        "name": "135800G4.MBA",
+        "path": "A:\\BUNDLE\\G4\\135800G4.MBA",
+        "size": 3022848
+      }
+    ],
+    "kind": "dir"
+  },
+  "A:\\BUNDLE\\LD": {
+    "entries": [
+      {
+        "attributes": 65536,
+        "kind": "file",
+        "name": "135800LD.MBA",
+        "path": "A:\\BUNDLE\\LD\\135800LD.MBA",
+        "size": 122880
+      }
+    ],
+    "kind": "dir"
+  },
+  "A:\\BUNDLE\\SY": {
+    "entries": [
+      {
+        "attributes": 65536,
+        "kind": "file",
+        "name": "135800SY.MBA",
+        "path": "A:\\BUNDLE\\SY\\135800SY.MBA",
+        "size": 1523712
+      },
+      {
+        "attributes": 65536,
+        "kind": "file",
+        "name": "WP.PHO",
+        "path": "A:\\BUNDLE\\SY\\WP.PHO",
+        "size": 163592
+      }
+    ],
+    "kind": "dir"
+  },
+  "A:\\BUNDLE\\TM": {
+    "entries": [
+      {
+        "attributes": 65536,
+        "kind": "file",
+        "name": "135800TM.MBA",
+        "path": "A:\\BUNDLE\\TM\\135800TM.MBA",
+        "size": 77824
+      }
+    ],
+    "kind": "dir"
+  },
+  "A:\\DEFAULT": {
+    "entries": [
+      {
+        "attributes": 65536,
+        "kind": "file",
+        "name": "MGB_PTCH.BIN",
+        "path": "A:\\DEFAULT\\MGB_PTCH.BIN",
+        "size": 2310002
+      },
+      {
+        "attributes": 65536,
+        "kind": "file",
+        "name": "CG",
+        "path": "A:\\DEFAULT\\CG",
+        "size": 102656
+      },
+      {
+        "attributes": 65536,
+        "kind": "file",
+        "name": "CS",
+        "path": "A:\\DEFAULT\\CS",
+        "size": 48832
+      },
+      {
+        "attributes": 65536,
+        "kind": "file",
+        "name": "WT",
+        "path": "A:\\DEFAULT\\WT",
+        "size": 162832
+      },
+      {
+        "attributes": 65536,
+        "kind": "file",
+        "name": "MM.MBA",
+        "path": "A:\\DEFAULT\\MM.MBA",
+        "size": 266240
+      },
+      {
+        "attributes": 65536,
+        "kind": "file",
+        "name": "UB.MBA",
+        "path": "A:\\DEFAULT\\UB.MBA",
+        "size": 77824
+      }
+    ],
+    "kind": "dir"
+  },
+  "A:\\ETC": {
+    "entries": [
+      {
+        "attributes": 65536,
+        "kind": "file",
+        "name": "PROFILE.DAT",
+        "path": "A:\\ETC\\PROFILE.DAT",
+        "size": 216
+      }
+    ],
+    "kind": "dir"
+  },
+  "A:\\PHO": {
+    "entries": [
+      {
+        "attributes": 65536,
+        "kind": "file",
+        "name": "00000009.PHO",
+        "path": "A:\\PHO\\00000009.PHO",
+        "size": 163592
+      }
+    ],
+    "kind": "dir"
+  },
+  "A:\\USENG": {
+    "entries": [
+      {
+        "attributes": 65536,
+        "kind": "file",
+        "name": "UB.MBA",
+        "path": "A:\\USENG\\UB.MBA",
+        "size": 77824
+      },
+      {
+        "attributes": 65536,
+        "kind": "file",
+        "name": "MM.MBA",
+        "path": "A:\\USENG\\MM.MBA",
+        "size": 266240
+      },
+      {
+        "attributes": 65536,
+        "kind": "file",
+        "name": "BOKSORT.LST",
+        "path": "A:\\USENG\\BOKSORT.LST",
+        "size": 6
+      },
+      {
+        "attributes": 65536,
+        "kind": "file",
+        "name": "MBASORT.LST",
+        "path": "A:\\USENG\\MBASORT.LST",
+        "size": 102
+      },
+      {
+        "attributes": 65536,
+        "kind": "file",
+        "name": "EBOOK.MBA",
+        "path": "A:\\USENG\\EBOOK.MBA",
+        "size": 118784
+      },
+      {
+        "attributes": 65536,
+        "kind": "file",
+        "name": "00000069.MBA",
+        "path": "A:\\USENG\\00000069.MBA",
+        "size": 290816
+      },
+      {
+        "attributes": 65536,
+        "kind": "file",
+        "name": "00000070.MBA",
+        "path": "A:\\USENG\\00000070.MBA",
+        "size": 266240
+      },
+      {
+        "attributes": 65536,
+        "kind": "file",
+        "name": "00000071.MBA",
+        "path": "A:\\USENG\\00000071.MBA",
+        "size": 299008
+      },
+      {
+        "attributes": 65536,
+        "kind": "file",
+        "name": "MM_RPLAY.DAT",
+        "path": "A:\\USENG\\MM_RPLAY.DAT",
+        "size": 92
+      },
+      {
+        "attributes": 65536,
+        "kind": "file",
+        "name": "00000066.MBA",
+        "path": "A:\\USENG\\00000066.MBA",
+        "size": 307200
+      },
+      {
+        "attributes": 65536,
+        "kind": "file",
+        "name": "00000067.MBA",
+        "path": "A:\\USENG\\00000067.MBA",
+        "size": 311296
+      },
+      {
+        "attributes": 65536,
+        "kind": "file",
+        "name": "00000068.MBA",
+        "path": "A:\\USENG\\00000068.MBA",
+        "size": 307200
+      }
+    ],
+    "kind": "dir"
+  }
+}

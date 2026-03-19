@@ -1,0 +1,20 @@
+Generalplus u'nSP Assembler - Ver. 1.14.19
+
+00000000                    	.CODE
+                            	
+                            	payload: .proc
+00000000 88 D2              	    push R1 to [SP];
+00000001 06 93              	    R1 = SR;
+00000002 88 D2              	    push R1 to [SP];
+00000003 59 F2 00 20        	    setb [0x2000], 9;
+00000005 88 90              	    pop R1 from [SP];
+00000006 01 9D              	    SR = R1;
+00000007 88 90              	    pop R1 from [SP];
+00000008 02 9E              	    ja do_continue;
+00000009 8C FE E3 D4        	    .dw 0xFE8C, 0xD4E3;
+                            	do_continue:
+0000000B 80 FE 83 53        	    .dw 0xFE80, 0x5383;
+                            	    .endp
+                            	
+                            	.END
+0 error(s), 0 warning(s).

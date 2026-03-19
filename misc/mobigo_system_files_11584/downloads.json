@@ -1,0 +1,165 @@
+[
+  {
+    "file_name": "BUNDLE_G1_135800G1.MBA",
+    "path": "C:\\Users\\Max\\Desktop\\mobigo_system_files_11584\\BUNDLE_G1_135800G1.MBA",
+    "size": 2179072,
+    "expected_md5": "e6593ea505131ade62c84df80536bb81|c8684c367ff8ec2e500adaca5317e7b6",
+    "expected_md5s": [
+      "e6593ea505131ade62c84df80536bb81",
+      "c8684c367ff8ec2e500adaca5317e7b6"
+    ],
+    "actual_md5": "c8684c367ff8ec2e500adaca5317e7b6",
+    "md5_ok": true,
+    "url": "https://contentcdn.vtechda.com/Data/Console/US/MobiGo2/SystemUpgrade/135800G1.MBA",
+    "sVersion": "002|003",
+    "sOptional": "sHasVer=true|sVerOffset=14|sNeedReboot=false"
+  },
+  {
+    "file_name": "BUNDLE_G2_135800G2.MBA",
+    "path": "C:\\Users\\Max\\Desktop\\mobigo_system_files_11584\\BUNDLE_G2_135800G2.MBA",
+    "size": 1302528,
+    "expected_md5": "cefdd93fa704b4a83405cabebc65103b|ed88b566b06e4c5165af52bdf05eaec3",
+    "expected_md5s": [
+      "cefdd93fa704b4a83405cabebc65103b",
+      "ed88b566b06e4c5165af52bdf05eaec3"
+    ],
+    "actual_md5": "ed88b566b06e4c5165af52bdf05eaec3",
+    "md5_ok": true,
+    "url": "https://contentcdn.vtechda.com/Data/Console/US/MobiGo2/SystemUpgrade/135800G2.MBA",
+    "sVersion": "003|004",
+    "sOptional": "sHasVer=true|sVerOffset=14|sNeedReboot=false"
+  },
+  {
+    "file_name": "BUNDLE_G3_135800G3.MBA",
+    "path": "C:\\Users\\Max\\Desktop\\mobigo_system_files_11584\\BUNDLE_G3_135800G3.MBA",
+    "size": 4128768,
+    "expected_md5": "bd21425e0fa36ceb8c6ba56dc698d37b",
+    "expected_md5s": [
+      "bd21425e0fa36ceb8c6ba56dc698d37b"
+    ],
+    "actual_md5": "bd21425e0fa36ceb8c6ba56dc698d37b",
+    "md5_ok": true,
+    "url": "https://contentcdn.vtechda.com/Data/Console/US/MobiGo2/SystemUpgrade/135800G3.MBA",
+    "sVersion": "003",
+    "sOptional": "sHasVer=true|sVerOffset=14|sNeedReboot=false"
+  },
+  {
+    "file_name": "BUNDLE_G4_135800G4.MBA",
+    "path": "C:\\Users\\Max\\Desktop\\mobigo_system_files_11584\\BUNDLE_G4_135800G4.MBA",
+    "size": 3022848,
+    "expected_md5": "cf8d31447a376f3b2fe1c6c78d2bd826",
+    "expected_md5s": [
+      "cf8d31447a376f3b2fe1c6c78d2bd826"
+    ],
+    "actual_md5": "cf8d31447a376f3b2fe1c6c78d2bd826",
+    "md5_ok": true,
+    "url": "https://contentcdn.vtechda.com/Data/Console/US/MobiGo2/SystemUpgrade/135800G4.MBA",
+    "sVersion": "003",
+    "sOptional": "sHasVer=true|sVerOffset=14|sNeedReboot=false"
+  },
+  {
+    "file_name": "BUNDLE_LD_135800LD.MBA",
+    "path": "C:\\Users\\Max\\Desktop\\mobigo_system_files_11584\\BUNDLE_LD_135800LD.MBA",
+    "size": 122880,
+    "expected_md5": "f3d3a07a30dcc7a7c464aacd2f882374",
+    "expected_md5s": [
+      "f3d3a07a30dcc7a7c464aacd2f882374"
+    ],
+    "actual_md5": "f3d3a07a30dcc7a7c464aacd2f882374",
+    "md5_ok": true,
+    "url": "https://contentcdn.vtechda.com/Data/Console/US/MobiGo2/SystemUpgrade/135800LD.MBA",
+    "sVersion": "001",
+    "sOptional": "sHasVer=true|sVerOffset=14|sNeedReboot=false"
+  },
+  {
+    "file_name": "BUNDLE_SY_135800SY.MBA",
+    "path": "C:\\Users\\Max\\Desktop\\mobigo_system_files_11584\\BUNDLE_SY_135800SY.MBA",
+    "size": 1523712,
+    "expected_md5": "14fae6500c0694fd1dc0ccc54bfd98f3",
+    "expected_md5s": [
+      "14fae6500c0694fd1dc0ccc54bfd98f3"
+    ],
+    "actual_md5": "14fae6500c0694fd1dc0ccc54bfd98f3",
+    "md5_ok": true,
+    "url": "https://contentcdn.vtechda.com/Data/Console/US/MobiGo2/SystemUpgrade/135800SY.MBA",
+    "sVersion": "005",
+    "sOptional": "sHasVer=true|sVerOffset=14|sNeedReboot=false"
+  },
+  {
+    "file_name": "BUNDLE_TM_135800TM.MBA",
+    "path": "C:\\Users\\Max\\Desktop\\mobigo_system_files_11584\\BUNDLE_TM_135800TM.MBA",
+    "size": 77824,
+    "expected_md5": "ebb3275ea6d49dc6f04c0ac590741b36|55f9a8e9f868424ebe4f36e3f8e04bdf",
+    "expected_md5s": [
+      "ebb3275ea6d49dc6f04c0ac590741b36",
+      "55f9a8e9f868424ebe4f36e3f8e04bdf"
+    ],
+    "actual_md5": "55f9a8e9f868424ebe4f36e3f8e04bdf",
+    "md5_ok": true,
+    "url": "https://contentcdn.vtechda.com/Data/Console/US/MobiGo2/SystemUpgrade/135800TM.MBA",
+    "sVersion": "003|004",
+    "sOptional": "sHasVer=true|sVerOffset=14|sNeedReboot=false"
+  },
+  {
+    "file_name": "DEFAULT_MGB_PTCH.BIN",
+    "path": "C:\\Users\\Max\\Desktop\\mobigo_system_files_11584\\DEFAULT_MGB_PTCH.BIN",
+    "size": 2310002,
+    "expected_md5": "8ca589ab5085d9859ed6fcea5e2e9057|c5fc73df564961ed6fe7f4c8c3c1a454|b72809df134d3c12bf37e90279674907|a0ebc6b9e4c64eb49f9edb2ba2cfa793",
+    "expected_md5s": [
+      "8ca589ab5085d9859ed6fcea5e2e9057",
+      "c5fc73df564961ed6fe7f4c8c3c1a454",
+      "b72809df134d3c12bf37e90279674907",
+      "a0ebc6b9e4c64eb49f9edb2ba2cfa793"
+    ],
+    "actual_md5": "a0ebc6b9e4c64eb49f9edb2ba2cfa793",
+    "md5_ok": true,
+    "url": "https://contentcdn.vtechda.com/Data/Console/US/MobiGo2/SystemUpgrade/MGB_PTCH.BIN",
+    "sVersion": "060|082|084|090",
+    "sOptional": "sHasVer=true|sVerOffset=8|sNeedReboot=true"
+  },
+  {
+    "file_name": "USENG_EBOOK.MBA",
+    "path": "C:\\Users\\Max\\Desktop\\mobigo_system_files_11584\\USENG_EBOOK.MBA",
+    "size": 118784,
+    "expected_md5": "152042fd33c866602584c69ce6da14b8|eaf1cb5e619102aac53b799da2694603",
+    "expected_md5s": [
+      "152042fd33c866602584c69ce6da14b8",
+      "eaf1cb5e619102aac53b799da2694603"
+    ],
+    "actual_md5": "eaf1cb5e619102aac53b799da2694603",
+    "md5_ok": true,
+    "url": "https://contentcdn.vtechda.com/Data/Console/US/MobiGo2/SystemUpgrade/EBOOK.MBA",
+    "sVersion": "001|002",
+    "sOptional": "sHasVer=true|sVerOffset=14|sNeedReboot=false"
+  },
+  {
+    "file_name": "USENG_MM.MBA",
+    "path": "C:\\Users\\Max\\Desktop\\mobigo_system_files_11584\\USENG_MM.MBA",
+    "size": 266240,
+    "expected_md5": "465348d529a49263252cb59a076d5a41|67ca70e6de4866095a86deacf273922c",
+    "expected_md5s": [
+      "465348d529a49263252cb59a076d5a41",
+      "67ca70e6de4866095a86deacf273922c"
+    ],
+    "actual_md5": "67ca70e6de4866095a86deacf273922c",
+    "md5_ok": true,
+    "url": "https://contentcdn.vtechda.com/Data/Console/US/MobiGo2/SystemUpgrade/MM.MBA",
+    "sVersion": "006|007",
+    "sOptional": "sHasVer=true|sVerOffset=14|sNeedReboot=false"
+  },
+  {
+    "file_name": "USENG_UB.MBA",
+    "path": "C:\\Users\\Max\\Desktop\\mobigo_system_files_11584\\USENG_UB.MBA",
+    "size": 77824,
+    "expected_md5": "51c99308a6bf5fc7b49a41e8c7c48301|c0fb9ada65aa6ebb41058a2db2bcfe70",
+    "expected_md5s": [
+      "51c99308a6bf5fc7b49a41e8c7c48301",
+      "c0fb9ada65aa6ebb41058a2db2bcfe70"
+    ],
+    "actual_md5": "c0fb9ada65aa6ebb41058a2db2bcfe70",
+    "md5_ok": true,
+    "url": "https://contentcdn.vtechda.com/Data/Console/US/MobiGo2/SystemUpgrade/UB.MBA",
+    "sVersion": "003|004",
+    "sOptional": "sHasVer=true|sVerOffset=14|sNeedReboot=false"
+  }
+]

@@ -1,0 +1,1324 @@
+{
+  "a_namespace": {
+    "A:\\BUNDLE": {
+      "kinds": [
+        "parent-dir",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\BUNDLE\\G1": {
+      "kinds": [
+        "parent-dir",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\BUNDLE\\G1\\135800G1.MBA": {
+      "kinds": [
+        "open-probe",
+        "parent-dir",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\BUNDLE\\G2": {
+      "kinds": [
+        "parent-dir",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\BUNDLE\\G2\\135800G2.MBA": {
+      "kinds": [
+        "open-probe",
+        "parent-dir",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\BUNDLE\\G3": {
+      "kinds": [
+        "parent-dir",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\BUNDLE\\G3\\135800G3.MBA": {
+      "kinds": [
+        "open-probe",
+        "parent-dir",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\BUNDLE\\G4": {
+      "kinds": [
+        "parent-dir",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\BUNDLE\\G4\\135800G4.MBA": {
+      "kinds": [
+        "open-probe",
+        "parent-dir",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\BUNDLE\\LD": {
+      "kinds": [
+        "parent-dir",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\BUNDLE\\LD\\135800LD.MBA": {
+      "kinds": [
+        "open-probe",
+        "parent-dir",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\BUNDLE\\SY": {
+      "kinds": [
+        "parent-dir",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\BUNDLE\\SY\\135800SY.MBA": {
+      "kinds": [
+        "open-probe",
+        "parent-dir",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\BUNDLE\\TM": {
+      "kinds": [
+        "parent-dir",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\BUNDLE\\TM\\135800TM.MBA": {
+      "kinds": [
+        "open-probe",
+        "parent-dir",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\DEFAULT": {
+      "kinds": [
+        "parent-dir",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\DEFAULT\\MGB_PTCH.BIN": {
+      "kinds": [
+        "open-probe",
+        "parent-dir",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\DEFAULT\\MM.MBA": {
+      "kinds": [
+        "parent-dir",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\DEFAULT\\UB.MBA": {
+      "kinds": [
+        "parent-dir",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\ETC": {
+      "kinds": [
+        "parent-dir"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\ETC\\PROFILE.DAT": {
+      "kinds": [
+        "open-probe",
+        "parent-dir",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\PHO": {
+      "kinds": [
+        "dir-list-target",
+        "parent-dir",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\PHO\\00000001.PHO": {
+      "kinds": [
+        "dir-entry-file",
+        "open-probe",
+        "parent-dir",
+        "size=163592",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\PHO\\00000002.PHO": {
+      "kinds": [
+        "dir-entry-file",
+        "open-probe",
+        "parent-dir",
+        "size=163592",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\PHO\\00000003.PHO": {
+      "kinds": [
+        "dir-entry-file",
+        "open-probe",
+        "parent-dir",
+        "size=163592",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\PHO\\00000004.PHO": {
+      "kinds": [
+        "dir-entry-file",
+        "open-probe",
+        "parent-dir",
+        "size=163592",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\PHO\\00000005.PHO": {
+      "kinds": [
+        "dir-entry-file",
+        "open-probe",
+        "parent-dir",
+        "size=163592",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\PHO\\00000006.PHO": {
+      "kinds": [
+        "dir-entry-file",
+        "open-probe",
+        "parent-dir",
+        "size=163592",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\PHO\\00000007.PHO": {
+      "kinds": [
+        "dir-entry-file",
+        "open-probe",
+        "parent-dir",
+        "size=163592",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\PHO\\00000009.PHO": {
+      "kinds": [
+        "dir-entry-file",
+        "open-probe",
+        "parent-dir",
+        "size=163592",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\PHO\\00000010.PHO": {
+      "kinds": [
+        "dir-entry-file",
+        "open-probe",
+        "parent-dir",
+        "size=163592",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\PHO\\00000011.PHO": {
+      "kinds": [
+        "dir-entry-file",
+        "open-probe",
+        "parent-dir",
+        "size=163592",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\PHO\\00000012.PHO": {
+      "kinds": [
+        "dir-entry-file",
+        "open-probe",
+        "parent-dir",
+        "size=163592",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\PHO\\00000013.PHO": {
+      "kinds": [
+        "open-probe",
+        "parent-dir"
+      ],
+      "sources": [
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\USENG": {
+      "kinds": [
+        "dir-list-target",
+        "parent-dir",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\USENG\\00000066.MBA": {
+      "kinds": [
+        "dir-entry-file",
+        "parent-dir",
+        "size=307200",
+        "stat-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\USENG\\00000067.MBA": {
+      "kinds": [
+        "dir-entry-file",
+        "parent-dir",
+        "size=311296",
+        "stat-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\USENG\\00000068.MBA": {
+      "kinds": [
+        "dir-entry-file",
+        "parent-dir",
+        "size=307200",
+        "stat-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\USENG\\00000069.MBA": {
+      "kinds": [
+        "dir-entry-file",
+        "parent-dir",
+        "size=290816",
+        "stat-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\USENG\\00000070.MBA": {
+      "kinds": [
+        "dir-entry-file",
+        "parent-dir",
+        "size=266240",
+        "stat-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\USENG\\00000071.MBA": {
+      "kinds": [
+        "dir-entry-file",
+        "parent-dir",
+        "size=299008",
+        "stat-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\USENG\\BOKSORT.LST": {
+      "kinds": [
+        "dir-entry-file",
+        "open-probe",
+        "parent-dir",
+        "size=6",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\USENG\\CG": {
+      "kinds": [
+        "parent-dir",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\USENG\\CS": {
+      "kinds": [
+        "parent-dir",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\USENG\\EBOOK.MBA": {
+      "kinds": [
+        "dir-entry-file",
+        "open-probe",
+        "parent-dir",
+        "size=118784",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\USENG\\MBASORT.LST": {
+      "kinds": [
+        "dir-entry-file",
+        "open-probe",
+        "parent-dir",
+        "size=102",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\USENG\\MM.MBA": {
+      "kinds": [
+        "dir-entry-file",
+        "open-probe",
+        "parent-dir",
+        "size=266240",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\USENG\\MM_RPLAY.DAT": {
+      "kinds": [
+        "dir-entry-file",
+        "parent-dir",
+        "size=92"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\USENG\\UB.MBA": {
+      "kinds": [
+        "dir-entry-file",
+        "open-probe",
+        "parent-dir",
+        "size=77824",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\USENG\\WT": {
+      "kinds": [
+        "parent-dir",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    }
+  },
+  "raw": {
+    "A:\\BUNDLE": {
+      "kinds": [
+        "parent-dir",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\BUNDLE\\G1": {
+      "kinds": [
+        "parent-dir",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\BUNDLE\\G1\\135800G1.MBA": {
+      "kinds": [
+        "open-probe",
+        "parent-dir",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\BUNDLE\\G2": {
+      "kinds": [
+        "parent-dir",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\BUNDLE\\G2\\135800G2.MBA": {
+      "kinds": [
+        "open-probe",
+        "parent-dir",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\BUNDLE\\G3": {
+      "kinds": [
+        "parent-dir",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\BUNDLE\\G3\\135800G3.MBA": {
+      "kinds": [
+        "open-probe",
+        "parent-dir",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\BUNDLE\\G4": {
+      "kinds": [
+        "parent-dir",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\BUNDLE\\G4\\135800G4.MBA": {
+      "kinds": [
+        "open-probe",
+        "parent-dir",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\BUNDLE\\LD": {
+      "kinds": [
+        "parent-dir",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\BUNDLE\\LD\\135800LD.MBA": {
+      "kinds": [
+        "open-probe",
+        "parent-dir",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\BUNDLE\\SY": {
+      "kinds": [
+        "parent-dir",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\BUNDLE\\SY\\135800SY.MBA": {
+      "kinds": [
+        "open-probe",
+        "parent-dir",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\BUNDLE\\TM": {
+      "kinds": [
+        "parent-dir",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\BUNDLE\\TM\\135800TM.MBA": {
+      "kinds": [
+        "open-probe",
+        "parent-dir",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\DEFAULT": {
+      "kinds": [
+        "parent-dir",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\DEFAULT\\MGB_PTCH.BIN": {
+      "kinds": [
+        "open-probe",
+        "parent-dir",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\PHO": {
+      "kinds": [
+        "dir-list-target",
+        "parent-dir",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\PHO\\00000001.PHO": {
+      "kinds": [
+        "dir-entry-file",
+        "open-probe",
+        "parent-dir",
+        "size=163592",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\PHO\\00000002.PHO": {
+      "kinds": [
+        "dir-entry-file",
+        "open-probe",
+        "parent-dir",
+        "size=163592",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\PHO\\00000003.PHO": {
+      "kinds": [
+        "dir-entry-file",
+        "open-probe",
+        "parent-dir",
+        "size=163592",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\PHO\\00000004.PHO": {
+      "kinds": [
+        "dir-entry-file",
+        "open-probe",
+        "parent-dir",
+        "size=163592",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\PHO\\00000005.PHO": {
+      "kinds": [
+        "dir-entry-file",
+        "open-probe",
+        "parent-dir",
+        "size=163592",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\PHO\\00000006.PHO": {
+      "kinds": [
+        "dir-entry-file",
+        "open-probe",
+        "parent-dir",
+        "size=163592",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\PHO\\00000007.PHO": {
+      "kinds": [
+        "dir-entry-file",
+        "open-probe",
+        "parent-dir",
+        "size=163592",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\PHO\\00000009.PHO": {
+      "kinds": [
+        "dir-entry-file",
+        "open-probe",
+        "parent-dir",
+        "size=163592",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\PHO\\00000010.PHO": {
+      "kinds": [
+        "dir-entry-file",
+        "open-probe",
+        "parent-dir",
+        "size=163592",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\PHO\\00000011.PHO": {
+      "kinds": [
+        "dir-entry-file",
+        "open-probe",
+        "parent-dir",
+        "size=163592",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\PHO\\00000012.PHO": {
+      "kinds": [
+        "dir-entry-file",
+        "open-probe",
+        "parent-dir",
+        "size=163592",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\PHO\\00000013.PHO": {
+      "kinds": [
+        "open-probe",
+        "parent-dir"
+      ],
+      "sources": [
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\USENG": {
+      "kinds": [
+        "parent-dir",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\USENG\\EBOOK.MBA": {
+      "kinds": [
+        "open-probe",
+        "parent-dir",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\USENG\\MM.MBA": {
+      "kinds": [
+        "open-probe",
+        "parent-dir",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "A:\\USENG\\UB.MBA": {
+      "kinds": [
+        "open-probe",
+        "parent-dir",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "\\DEFAULT": {
+      "kinds": [
+        "parent-dir",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "\\DEFAULT\\MM.MBA": {
+      "kinds": [
+        "parent-dir",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "\\DEFAULT\\UB.MBA": {
+      "kinds": [
+        "parent-dir",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "\\ETC": {
+      "kinds": [
+        "parent-dir"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "\\ETC\\PROFILE.DAT": {
+      "kinds": [
+        "open-probe",
+        "parent-dir",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "\\USENG": {
+      "kinds": [
+        "dir-list-target",
+        "parent-dir",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "\\USENG\\00000066.MBA": {
+      "kinds": [
+        "dir-entry-file",
+        "parent-dir",
+        "size=307200",
+        "stat-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "\\USENG\\00000067.MBA": {
+      "kinds": [
+        "dir-entry-file",
+        "parent-dir",
+        "size=311296",
+        "stat-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "\\USENG\\00000068.MBA": {
+      "kinds": [
+        "dir-entry-file",
+        "parent-dir",
+        "size=307200",
+        "stat-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "\\USENG\\00000069.MBA": {
+      "kinds": [
+        "dir-entry-file",
+        "parent-dir",
+        "size=290816",
+        "stat-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "\\USENG\\00000070.MBA": {
+      "kinds": [
+        "dir-entry-file",
+        "parent-dir",
+        "size=266240",
+        "stat-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "\\USENG\\00000071.MBA": {
+      "kinds": [
+        "dir-entry-file",
+        "parent-dir",
+        "size=299008",
+        "stat-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "\\USENG\\BOKSORT.LST": {
+      "kinds": [
+        "dir-entry-file",
+        "open-probe",
+        "parent-dir",
+        "size=6",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "\\USENG\\CG": {
+      "kinds": [
+        "parent-dir",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "\\USENG\\CS": {
+      "kinds": [
+        "parent-dir",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "\\USENG\\EBOOK.MBA": {
+      "kinds": [
+        "dir-entry-file",
+        "parent-dir",
+        "size=118784"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "\\USENG\\MBASORT.LST": {
+      "kinds": [
+        "dir-entry-file",
+        "open-probe",
+        "parent-dir",
+        "size=102",
+        "stat-probe",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "\\USENG\\MM.MBA": {
+      "kinds": [
+        "dir-entry-file",
+        "parent-dir",
+        "size=266240",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "\\USENG\\MM_RPLAY.DAT": {
+      "kinds": [
+        "dir-entry-file",
+        "parent-dir",
+        "size=92"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "\\USENG\\UB.MBA": {
+      "kinds": [
+        "dir-entry-file",
+        "parent-dir",
+        "size=77824",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    },
+    "\\USENG\\WT": {
+      "kinds": [
+        "parent-dir",
+        "type-probe"
+      ],
+      "sources": [
+        "a.pcapng",
+        "mobi.pcapng",
+        "mobi2.pcapng"
+      ]
+    }
+  }
+}

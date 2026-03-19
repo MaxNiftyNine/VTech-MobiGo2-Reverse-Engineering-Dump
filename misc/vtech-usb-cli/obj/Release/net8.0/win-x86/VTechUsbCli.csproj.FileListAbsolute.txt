@@ -1,0 +1,14 @@
+C:\Users\Max\Desktop\vtech-usb-cli\bin\Release\net8.0\win-x86\vtech-usb-cli.exe
+C:\Users\Max\Desktop\vtech-usb-cli\bin\Release\net8.0\win-x86\vtech-usb-cli.deps.json
+C:\Users\Max\Desktop\vtech-usb-cli\bin\Release\net8.0\win-x86\vtech-usb-cli.runtimeconfig.json
+C:\Users\Max\Desktop\vtech-usb-cli\bin\Release\net8.0\win-x86\vtech-usb-cli.dll
+C:\Users\Max\Desktop\vtech-usb-cli\bin\Release\net8.0\win-x86\vtech-usb-cli.pdb
+C:\Users\Max\Desktop\vtech-usb-cli\obj\Release\net8.0\win-x86\VTechUsbCli.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Max\Desktop\vtech-usb-cli\obj\Release\net8.0\win-x86\VTechUsbCli.AssemblyInfoInputs.cache
+C:\Users\Max\Desktop\vtech-usb-cli\obj\Release\net8.0\win-x86\VTechUsbCli.AssemblyInfo.cs
+C:\Users\Max\Desktop\vtech-usb-cli\obj\Release\net8.0\win-x86\VTechUsbCli.csproj.CoreCompileInputs.cache
+C:\Users\Max\Desktop\vtech-usb-cli\obj\Release\net8.0\win-x86\vtech-usb-cli.dll
+C:\Users\Max\Desktop\vtech-usb-cli\obj\Release\net8.0\win-x86\refint\vtech-usb-cli.dll
+C:\Users\Max\Desktop\vtech-usb-cli\obj\Release\net8.0\win-x86\vtech-usb-cli.pdb
+C:\Users\Max\Desktop\vtech-usb-cli\obj\Release\net8.0\win-x86\VTechUsbCli.genruntimeconfig.cache
+C:\Users\Max\Desktop\vtech-usb-cli\obj\Release\net8.0\win-x86\ref\vtech-usb-cli.dll

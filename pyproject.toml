@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mobigo-repo"
+version = "0.1.0"
+description = "Reverse engineering tooling for the VTech MobiGo USB transport"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.31.0",
+    "urllib3>=2.0.0",
+]
+
+[project.optional-dependencies]
+windows = [
+    "pywin32>=306",
+]
+
+[tool.setuptools]
+py-modules = [
+    "download_mobigo_system_files",
+    "mobigo_cli",
+    "mobigo_proto",
+    "mobigo_vendor_bridge",
+]
+
+[project.scripts]
+mobigo-cli = "mobigo_cli:main"

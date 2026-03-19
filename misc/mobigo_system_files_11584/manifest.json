@@ -1,0 +1,97 @@
+{
+  "GenericMsg": {
+    "bIsSuccess": "true",
+    "unErrCode": "0",
+    "sErrKey": "noError",
+    "sSuccessMsg": "Get Console System File OK!",
+    "sFailMsg": "",
+    "sSuccessValue": "",
+    "sExtraInfo1": "",
+    "sDBServer": "",
+    "sRemoteIP": "IP Hidden",
+    "sExeDateTime": "3/15/2026 6:22:08 AM",
+    "sDisplayMessage": "",
+    "sOTMessageKey": "0"
+  },
+  "numOfItem": "11",
+  "consoleSystemFileInfoList": [
+    {
+      "sConsoleKey": "BUNDLE/G1/135800G1.MBA",
+      "sBinaryURL": "https://contentcdn.vtechda.com/Data/Console/US/MobiGo2/SystemUpgrade/135800G1.MBA",
+      "sVersion": "002|003",
+      "sBinaryMD5": "e6593ea505131ade62c84df80536bb81|c8684c367ff8ec2e500adaca5317e7b6",
+      "sOptional": "sHasVer=true|sVerOffset=14|sNeedReboot=false"
+    },
+    {
+      "sConsoleKey": "BUNDLE/G2/135800G2.MBA",
+      "sBinaryURL": "https://contentcdn.vtechda.com/Data/Console/US/MobiGo2/SystemUpgrade/135800G2.MBA",
+      "sVersion": "003|004",
+      "sBinaryMD5": "cefdd93fa704b4a83405cabebc65103b|ed88b566b06e4c5165af52bdf05eaec3",
+      "sOptional": "sHasVer=true|sVerOffset=14|sNeedReboot=false"
+    },
+    {
+      "sConsoleKey": "BUNDLE/G3/135800G3.MBA",
+      "sBinaryURL": "https://contentcdn.vtechda.com/Data/Console/US/MobiGo2/SystemUpgrade/135800G3.MBA",
+      "sVersion": "003",
+      "sBinaryMD5": "bd21425e0fa36ceb8c6ba56dc698d37b",
+      "sOptional": "sHasVer=true|sVerOffset=14|sNeedReboot=false"
+    },
+    {
+      "sConsoleKey": "BUNDLE/G4/135800G4.MBA",
+      "sBinaryURL": "https://contentcdn.vtechda.com/Data/Console/US/MobiGo2/SystemUpgrade/135800G4.MBA",
+      "sVersion": "003",
+      "sBinaryMD5": "cf8d31447a376f3b2fe1c6c78d2bd826",
+      "sOptional": "sHasVer=true|sVerOffset=14|sNeedReboot=false"
+    },
+    {
+      "sConsoleKey": "BUNDLE/LD/135800LD.MBA",
+      "sBinaryURL": "https://contentcdn.vtechda.com/Data/Console/US/MobiGo2/SystemUpgrade/135800LD.MBA",
+      "sVersion": "001",
+      "sBinaryMD5": "f3d3a07a30dcc7a7c464aacd2f882374",
+      "sOptional": "sHasVer=true|sVerOffset=14|sNeedReboot=false"
+    },
+    {
+      "sConsoleKey": "BUNDLE/SY/135800SY.MBA",
+      "sBinaryURL": "https://contentcdn.vtechda.com/Data/Console/US/MobiGo2/SystemUpgrade/135800SY.MBA",
+      "sVersion": "005",
+      "sBinaryMD5": "14fae6500c0694fd1dc0ccc54bfd98f3",
+      "sOptional": "sHasVer=true|sVerOffset=14|sNeedReboot=false"
+    },
+    {
+      "sConsoleKey": "BUNDLE/TM/135800TM.MBA",
+      "sBinaryURL": "https://contentcdn.vtechda.com/Data/Console/US/MobiGo2/SystemUpgrade/135800TM.MBA",
+      "sVersion": "003|004",
+      "sBinaryMD5": "ebb3275ea6d49dc6f04c0ac590741b36|55f9a8e9f868424ebe4f36e3f8e04bdf",
+      "sOptional": "sHasVer=true|sVerOffset=14|sNeedReboot=false"
+    },
+    {
+      "sConsoleKey": "DEFAULT/MGB_PTCH.BIN",
+      "sBinaryURL": "https://contentcdn.vtechda.com/Data/Console/US/MobiGo2/SystemUpgrade/MGB_PTCH.BIN",
+      "sVersion": "060|082|084|090",
+      "sBinaryMD5": "8ca589ab5085d9859ed6fcea5e2e9057|c5fc73df564961ed6fe7f4c8c3c1a454|b72809df134d3c12bf37e90279674907|a0ebc6b9e4c64eb49f9edb2ba2cfa793",
+      "sOptional": "sHasVer=true|sVerOffset=8|sNeedReboot=true"
+    },
+    {
+      "sConsoleKey": "USENG/EBOOK.MBA",
+      "sBinaryURL": "https://contentcdn.vtechda.com/Data/Console/US/MobiGo2/SystemUpgrade/EBOOK.MBA",
+      "sVersion": "001|002",
+      "sBinaryMD5": "152042fd33c866602584c69ce6da14b8|eaf1cb5e619102aac53b799da2694603",
+      "sOptional": "sHasVer=true|sVerOffset=14|sNeedReboot=false"
+    },
+    {
+      "sConsoleKey": "USENG/MM.MBA",
+      "sBinaryURL": "https://contentcdn.vtechda.com/Data/Console/US/MobiGo2/SystemUpgrade/MM.MBA",
+      "sVersion": "006|007",
+      "sBinaryMD5": "465348d529a49263252cb59a076d5a41|67ca70e6de4866095a86deacf273922c",
+      "sOptional": "sHasVer=true|sVerOffset=14|sNeedReboot=false"
+    },
+    {
+      "sConsoleKey": "USENG/UB.MBA",
+      "sBinaryURL": "https://contentcdn.vtechda.com/Data/Console/US/MobiGo2/SystemUpgrade/UB.MBA",
+      "sVersion": "003|004",
+      "sBinaryMD5": "51c99308a6bf5fc7b49a41e8c7c48301|c0fb9ada65aa6ebb41058a2db2bcfe70",
+      "sOptional": "sHasVer=true|sVerOffset=14|sNeedReboot=false"
+    }
+  ],
+  "raw_xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"><soap:Body><getConsoleSystemFileResponse xmlns=\"VTechDA.WService\"><getConsoleSystemFileResult><GenericMsg><bIsSuccess>true</bIsSuccess><unErrCode>0</unErrCode><sErrKey>noError</sErrKey><sSuccessMsg>Get Console System File OK!</sSuccessMsg><sFailMsg /><sSuccessValue /><sExtraInfo1 /><sDBServer /><sRemoteIP>IP Hidden</sRemoteIP><sExeDateTime>3/15/2026 6:22:08 AM</sExeDateTime><sDisplayMessage /><sOTMessageKey>0</sOTMessageKey></GenericMsg><numOfItem>11</numOfItem><consoleSystemFileInfoList><ConsoleSystemFileInfo><sConsoleKey>BUNDLE/G1/135800G1.MBA</sConsoleKey><sBinaryURL>https://contentcdn.vtechda.com/Data/Console/US/MobiGo2/SystemUpgrade/135800G1.MBA</sBinaryURL><sVersion>002|003</sVersion><sBinaryMD5>e6593ea505131ade62c84df80536bb81|c8684c367ff8ec2e500adaca5317e7b6</sBinaryMD5><sOptional>sHasVer=true|sVerOffset=14|sNeedReboot=false</sOptional></ConsoleSystemFileInfo><ConsoleSystemFileInfo><sConsoleKey>BUNDLE/G2/135800G2.MBA</sConsoleKey><sBinaryURL>https://contentcdn.vtechda.com/Data/Console/US/MobiGo2/SystemUpgrade/135800G2.MBA</sBinaryURL><sVersion>003|004</sVersion><sBinaryMD5>cefdd93fa704b4a83405cabebc65103b|ed88b566b06e4c5165af52bdf05eaec3</sBinaryMD5><sOptional>sHasVer=true|sVerOffset=14|sNeedReboot=false</sOptional></ConsoleSystemFileInfo><ConsoleSystemFileInfo><sConsoleKey>BUNDLE/G3/135800G3.MBA</sConsoleKey><sBinaryURL>https://contentcdn.vtechda.com/Data/Console/US/MobiGo2/SystemUpgrade/135800G3.MBA</sBinaryURL><sVersion>003</sVersion><sBinaryMD5>bd21425e0fa36ceb8c6ba56dc698d37b</sBinaryMD5><sOptional>sHasVer=true|sVerOffset=14|sNeedReboot=false</sOptional></ConsoleSystemFileInfo><ConsoleSystemFileInfo><sConsoleKey>BUNDLE/G4/135800G4.MBA</sConsoleKey><sBinaryURL>https://contentcdn.vtechda.com/Data/Console/US/MobiGo2/SystemUpgrade/135800G4.MBA</sBinaryURL><sVersion>003</sVersion><sBinaryMD5>cf8d31447a376f3b2fe1c6c78d2bd826</sBinaryMD5><sOptional>sHasVer=true|sVerOffset=14|sNeedReboot=false</sOptional></ConsoleSystemFileInfo><ConsoleSystemFileInfo><sConsoleKey>BUNDLE/LD/135800LD.MBA</sConsoleKey><sBinaryURL>https://contentcdn.vtechda.com/Data/Console/US/MobiGo2/SystemUpgrade/135800LD.MBA</sBinaryURL><sVersion>001</sVersion><sBinaryMD5>f3d3a07a30dcc7a7c464aacd2f882374</sBinaryMD5><sOptional>sHasVer=true|sVerOffset=14|sNeedReboot=false</sOptional></ConsoleSystemFileInfo><ConsoleSystemFileInfo><sConsoleKey>BUNDLE/SY/135800SY.MBA</sConsoleKey><sBinaryURL>https://contentcdn.vtechda.com/Data/Console/US/MobiGo2/SystemUpgrade/135800SY.MBA</sBinaryURL><sVersion>005</sVersion><sBinaryMD5>14fae6500c0694fd1dc0ccc54bfd98f3</sBinaryMD5><sOptional>sHasVer=true|sVerOffset=14|sNeedReboot=false</sOptional></ConsoleSystemFileInfo><ConsoleSystemFileInfo><sConsoleKey>BUNDLE/TM/135800TM.MBA</sConsoleKey><sBinaryURL>https://contentcdn.vtechda.com/Data/Console/US/MobiGo2/SystemUpgrade/135800TM.MBA</sBinaryURL><sVersion>003|004</sVersion><sBinaryMD5>ebb3275ea6d49dc6f04c0ac590741b36|55f9a8e9f868424ebe4f36e3f8e04bdf</sBinaryMD5><sOptional>sHasVer=true|sVerOffset=14|sNeedReboot=false</sOptional></ConsoleSystemFileInfo><ConsoleSystemFileInfo><sConsoleKey>DEFAULT/MGB_PTCH.BIN</sConsoleKey><sBinaryURL>https://contentcdn.vtechda.com/Data/Console/US/MobiGo2/SystemUpgrade/MGB_PTCH.BIN</sBinaryURL><sVersion>060|082|084|090</sVersion><sBinaryMD5>8ca589ab5085d9859ed6fcea5e2e9057|c5fc73df564961ed6fe7f4c8c3c1a454|b72809df134d3c12bf37e90279674907|a0ebc6b9e4c64eb49f9edb2ba2cfa793</sBinaryMD5><sOptional>sHasVer=true|sVerOffset=8|sNeedReboot=true</sOptional></ConsoleSystemFileInfo><ConsoleSystemFileInfo><sConsoleKey>USENG/EBOOK.MBA</sConsoleKey><sBinaryURL>https://contentcdn.vtechda.com/Data/Console/US/MobiGo2/SystemUpgrade/EBOOK.MBA</sBinaryURL><sVersion>001|002</sVersion><sBinaryMD5>152042fd33c866602584c69ce6da14b8|eaf1cb5e619102aac53b799da2694603</sBinaryMD5><sOptional>sHasVer=true|sVerOffset=14|sNeedReboot=false</sOptional></ConsoleSystemFileInfo><ConsoleSystemFileInfo><sConsoleKey>USENG/MM.MBA</sConsoleKey><sBinaryURL>https://contentcdn.vtechda.com/Data/Console/US/MobiGo2/SystemUpgrade/MM.MBA</sBinaryURL><sVersion>006|007</sVersion><sBinaryMD5>465348d529a49263252cb59a076d5a41|67ca70e6de4866095a86deacf273922c</sBinaryMD5><sOptional>sHasVer=true|sVerOffset=14|sNeedReboot=false</sOptional></ConsoleSystemFileInfo><ConsoleSystemFileInfo><sConsoleKey>USENG/UB.MBA</sConsoleKey><sBinaryURL>https://contentcdn.vtechda.com/Data/Console/US/MobiGo2/SystemUpgrade/UB.MBA</sBinaryURL><sVersion>003|004</sVersion><sBinaryMD5>51c99308a6bf5fc7b49a41e8c7c48301|c0fb9ada65aa6ebb41058a2db2bcfe70</sBinaryMD5><sOptional>sHasVer=true|sVerOffset=14|sNeedReboot=false</sOptional></ConsoleSystemFileInfo></consoleSystemFileInfoList></getConsoleSystemFileResult></getConsoleSystemFileResponse></soap:Body></soap:Envelope>"
+}

@@ -1,0 +1,90 @@
+Inferred A:\ tree from USB captures and live reads
+Generated: 2026-03-14
+
+Important:
+- This is an inferred listing, not a proven complete recursive directory walk.
+- Evidence comes from targeted type/stat/open traffic in a.pcapng, mobi.pcapng, mobi2.pcapng, plus live dumps.
+- The stock app appears to probe specific paths instead of issuing a generic A:\ find-first/find-next walk.
+
+Confirmed/probed A:\ entries:
+
+A:\
+  BUNDLE\
+    G1\
+      135800G1.MBA
+    G2\
+      135800G2.MBA
+    G3\
+      135800G3.MBA
+    G4\
+      135800G4.MBA
+    LD\
+      135800LD.MBA
+    SY\
+      135800SY.MBA
+    TM\
+      135800TM.MBA
+  DEFAULT\
+    CG
+    CS
+    MGB_PTCH.BIN
+    MM.MBA
+    UB.MBA
+    WT
+  PHO\
+    00000001.PHO
+    00000002.PHO
+    00000003.PHO
+    00000004.PHO
+    00000005.PHO
+    00000006.PHO
+    00000007.PHO
+    00000009.PHO
+    00000010.PHO
+    00000011.PHO
+    00000012.PHO
+    00000013.PHO
+  USENG\
+    00000066.MBA
+    00000067.MBA
+    00000068.MBA
+    00000069.MBA
+    00000070.MBA
+    00000071.MBA
+    EBOOK.MBA
+    MM.MBA
+    MM_RPLAY.DAT
+    UB.MBA
+    BOKSORT.LST
+    MBASORT.LST
+
+Also observed under root-style paths used by the protocol:
+
+\ETC\
+  PROFILE.DAT
+
+\USENG\
+  00000066.MBA
+  00000067.MBA
+  00000068.MBA
+  00000069.MBA
+  00000070.MBA
+  00000071.MBA
+  BOKSORT.LST
+  MBASORT.LST
+  EBOOK.MBA
+  MM.MBA
+  MM_RPLAY.DAT
+  UB.MBA
+
+\DEFAULT\
+  MM.MBA
+  UB.MBA
+
+Notes:
+- The protocol uses both A:\... and root-style \... paths. These may be aliases or separate namespaces.
+- A:\PHO was the only area where directory pagination was directly observed to be usable in prior live tests.
+- The captures also contain successful directory pagination for \USENG, yielding 12 entries:
+  UB.MBA, MM.MBA, BOKSORT.LST, MBASORT.LST, EBOOK.MBA, 00000069.MBA, 00000070.MBA, 00000071.MBA, MM_RPLAY.DAT, 00000066.MBA, 00000067.MBA, 00000068.MBA.
+- No capture seen so far proves a clean generic enumeration of all children of A:\.
+- 00000008.PHO has not been observed in the captures I decoded so far.

@@ -1,0 +1,8 @@
+files=0
+bytes=0
+failures=5
+dir A:\ failed: A:\ is not a directory
+dir A:\DEFAULT failed: A:\DEFAULT is not a directory
+dir A:\BUNDLE failed: A:\BUNDLE is not a directory
+dir A:\PHO failed: A:\PHO is not a directory
+dir \USENG failed: \USENG is not a directory

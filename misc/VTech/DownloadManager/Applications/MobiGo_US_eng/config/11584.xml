@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DAAppConfiguration>
+    <Format_Version>1.1</Format_Version>
+    <AppVersion>
+        <key name="115800US">
+            <integer>3000</integer>
+        </key>
+    </AppVersion>
+    <Application_Name>MobiGo Web Program</Application_Name>
+    <Application_Icon>11584.PNG</Application_Icon>
+    <Application_Icon_Connected>11584Connected.PNG</Application_Icon_Connected>
+    <ApplicationID>115800US</ApplicationID>
+    <MainDllID>115800020</MainDllID>
+    <MainDll>MobiGo.dll</MainDll>
+    <MainEXEID>115800010</MainEXEID>
+    <MainEXE>MobiGoAuxiliaryExe.exe</MainEXE>
+    <HomeURL>www.vtechda.com</HomeURL>
+    <DefaultPage>WEB</DefaultPage>
+    <Country>US</Country>
+    <Language>eng</Language>
+    <Parent>BOTH</Parent>
+    <ProductID>1158,11583,11584</ProductID>
+    <VendorID>3976</VendorID>
+    <Type>DLL+EXE+WEB</Type>
+    <ProgramVersion>2.1.3.7</ProgramVersion>
+    <Deviation_Icon>
+        <DeviationCode name="0100FF">
+            <Icon>1158.PNG</Icon>
+            <Icon_Connected>1158Connected.PNG</Icon_Connected>
+        </DeviationCode>
+        <DeviationCode name="0200FE">
+            <Icon>1158_pink.png</Icon>
+            <Icon_Connected>1158Connected_pink.png</Icon_Connected>
+        </DeviationCode>
+        <DeviationCode name="3100CF">
+            <Icon>1158.PNG</Icon>
+            <Icon_Connected>1158Connected.PNG</Icon_Connected>
+        </DeviationCode>
+        <DeviationCode name="3200CE">
+            <Icon>1158_pink.png</Icon>
+            <Icon_Connected>1158Connected_pink.png</Icon_Connected>
+        </DeviationCode>
+        <DeviationCode name="319639">
+            <Icon>1158.PNG</Icon>
+            <Icon_Connected>1158Connected.PNG</Icon_Connected>
+        </DeviationCode>
+        <DeviationCode name="329638">
+            <Icon>1158_pink.png</Icon>
+            <Icon_Connected>1158Connected_pink.png</Icon_Connected>
+        </DeviationCode>
+        <DeviationCode name="4100BF">
+            <Icon>11584_blue.png</Icon>
+            <Icon_Connected>11584Connected_blue.png</Icon_Connected>
+        </DeviationCode>
+        <DeviationCode name="4200BE">
+            <Icon>11584_pink.png</Icon>
+            <Icon_Connected>11584Connected_pink.png</Icon_Connected>
+        </DeviationCode>
+        <DeviationCode name="4300BD">
+            <Icon>11584_blitz.png</Icon>
+            <Icon_Connected>11584Connected_blitz.png</Icon_Connected>
+        </DeviationCode>
+    </Deviation_Icon>
+    <DeviceType>0</DeviceType>
+    <AuxiliaryDll>MobiGo.dll</AuxiliaryDll>
+</DAAppConfiguration>

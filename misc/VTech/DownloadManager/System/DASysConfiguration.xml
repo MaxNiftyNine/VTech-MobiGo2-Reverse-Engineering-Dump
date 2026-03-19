@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DASysConfiguration>
+    <AppVersion>
+        <key name="0000010000">
+            <integer>4113</integer>
+        </key>
+    </AppVersion>
+    <key name="DefaultWebURL">
+        <value>www.vtechda.com</value>
+    </key>
+    <key name="Country">
+        <value>US</value>
+    </key>
+    <key name="Language">
+        <value>eng</value>
+    </key>
+    <key name="DownloadAgentManager">
+        <value>System\DownloadManager.exe</value>
+    </key>
+    <key name="AgentMonitor">
+        <value>System\AgentMonitor.exe</value>
+    </key>
+    <key name="UpdateAssistant">
+        <value>System\UpdateAssistant.exe</value>
+    </key>
+    <key name="DASysConfiguration">
+        <value>System\DASysConfiguration.xml</value>
+    </key>
+</DASysConfiguration>

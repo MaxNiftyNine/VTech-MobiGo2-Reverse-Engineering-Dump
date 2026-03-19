@@ -1,0 +1,5 @@
+C:\Users\Max\Desktop\vtech-usb-cli\publish\vtech-usb-cli.exe
+C:\Users\Max\Desktop\vtech-usb-cli\publish\vtech-usb-cli.dll
+C:\Users\Max\Desktop\vtech-usb-cli\publish\vtech-usb-cli.deps.json
+C:\Users\Max\Desktop\vtech-usb-cli\publish\vtech-usb-cli.runtimeconfig.json
+C:\Users\Max\Desktop\vtech-usb-cli\publish\vtech-usb-cli.pdb

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DAFlashBar>
+    <item>
+        <Path>crossSellImg/Bugsby.png</Path>
+        <Hint>Bugsby Reading System</Hint>
+        <URL>www.vtechkids.com</URL>
+    </item>
+    <item>
+        <Path>crossSellImg/KidizoomSport.png</Path>
+        <Hint>Kidizoom Digital Camera</Hint>
+        <URL>www.vtechkids.com</URL>
+    </item>
+    <item>
+        <Path>crossSellImg/VSmileMotion.png</Path>
+        <Hint>V.Smile Motion Learning System</Hint>
+        <URL>www.vtechkids.com</URL>
+    </item>
+    <item>
+        <Path>crossSellImg/MobiGoBlue.png</Path>
+        <Hint>MobiGo Touch Learning System</Hint>
+        <URL>www.vtechkids.com</URL>
+    </item>
+    <item>
+        <Path>crossSellImg/VReader.png</Path>
+        <Hint>V.Reader Animated eBook System</Hint>
+        <URL>www.vtechkids.com</URL>
+    </item>
+    <item>
+        <Path>crossSellImg/CarAdaptor.png</Path>
+        <Hint>VTech Car Charger</Hint>
+        <URL>www.vtechkids.com</URL>
+    </item>
+    <item>
+        <Path>crossSellImg/ACAdaptor.png</Path>
+        <Hint>VTech AC Adaptor</Hint>
+        <URL>www.vtechkids.com</URL>
+    </item>
+</DAFlashBar>

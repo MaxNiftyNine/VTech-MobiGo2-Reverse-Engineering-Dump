@@ -1,0 +1,4 @@
+files=0
+bytes=0
+failures=1
+dir \USENG failed: \USENG is not a directory

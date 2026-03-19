@@ -1,0 +1,1182 @@
+--- PAGE 1 ---
+No.19, Industry E. Rd. IV, Hsinchu Science Park, Hsinchu City 30077, Taiwan, R.O.C. 
+Tel: +886-3-666-2118  Fax: +886-3-666-2117  Web: www.generalplus.com 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+'nSP  Programmers Guide 
+V1.0 November 26, 2007  
+ 
+ 
+ 
+ 
+ 
+ 
+
+--- PAGE 2 ---
+ 'nSP  Programmers Guide  
+ 
+ Generalplus Technology Inc. PAGE 2  V1.0 November 26, 2007 
+ 
+ 
+Important Notice 
+GENERALPLUS TECHNOLOGY INC. reserves the right to change this documentation without prior notice.  
+Information provided by GENERALPLUS TECHNOLOGY INC. is believed to be accurate and reliable.  However, 
+GENERALPLUS TECHNOLOGY INC. makes no warranty for any errors which may appear in this document.  
+Contact GENERALPLUS TECHNOLOGY INC. to obtain the latest version of device specifications before placing 
+your order.  N o responsibility is assumed by GENERALPLUS TECHNOLOGY INC. for any infringement of 
+patent or other rights of third parties which may result from its use.  In addition, GENERALPLUS products are 
+not authorized for use as critical components in life support d evices/ systems or aviation devices/systems, where 
+a malfunction or failure of the product may reasonably be expected to result in significant injury to the user, 
+without the express written approval of Generalplus. 
+ 
+
+--- PAGE 3 ---
+ 'nSP  Programmers Guide  
+ 
+ Generalplus Technology Inc. PAGE 3  V1.0 November 26, 2007 
+ 
+Table of Content  
+ 
+1 Introduction ............................................................................................................................. 7 
+1.1 General Description ..................................................................................................... 7 
+1.2 Pin Diagram ................................................................................................................. 7 
+1.2.1 Pin Diagram and Description of unSP-1.2 ........................................................ 7 
+1.2.2 Pin Diagram and Description of unSP-1.3 ........................................................ 8 
+1.2.3 Pin Diagram and Description of unSP-2.0 ...................................................... 10 
+1.3 Features ...................................................................................................................... 11 
+1.3.1 Features of unSP-1.0 and unSP-1.1 ................................................................ 11 
+1.3.2 Features of unSP-1.2 ....................................................................................... 12 
+1.3.3 Features of unSP-1.3 ....................................................................................... 13 
+1.3.4 Features of unSP-2.0 ....................................................................................... 14 
+1.4 Architecture................................................................................................................ 16 
+1.4.1 Architecture of unSP-1.0 and unSP-1.1 .......................................................... 16 
+1.4.2 Architecture of unSP-1.2 ................................................................................ 17 
+1.4.3 Peripheral Interface of unSP-1.2 ..................................................................... 18 
+1.4.4 Architecture of unSP-1.3 ................................................................................ 20 
+1.4.5 Architecture of unSP-2.0 ................................................................................ 22 
+1.4.6 Pipeline Feature of unSP-2.0 .......................................................................... 23 
+1.5 Register ...................................................................................................................... 24 
+1.5.1 Register of unSP-1.0 and unSP-1.1................................................................. 24 
+1.5.2 Register of unSP1.2 ...................................................................................... 24 
+1.5.3 Register of unSP-1.3 ....................................................................................... 26 
+1.5.4 Registers of unSP- 2.0 ..................................................................................... 29 
+1.6 Memory ...................................................................................................................... 31 
+1.6.1 Memory Map of nSP  ............................................................................. 31 
+1.6.2 Memory Interface of unSP-1.2 ....................................................................... 31 
+1.6.3 Memory Architecture of unSP-1.3 .................................................................. 35 
+1.6.4 Memory Architecture of unSP-2.0 .................................................................. 37 
+1.6.5 Memory Interface of unSP2.0 ....................................................................... 38 
+1.7 Addressing Modes ..................................................................................................... 44 
+1.7.1  6 addressing modes of unSP-1.0 and unSP-1.1 ........................................... 44 
+
+--- PAGE 4 ---
+ 'nSP  Programmers Guide  
+ 
+ Generalplus Technology Inc. PAGE 4  V1.0 November 26, 2007 
+ 
+1.7.2  6 addressing modes of unSP-1.2 and unSP-2.0 ........................................... 45 
+1.7.3  9 addressing modes of unSP-1.3 .................................................................. 46 
+1.8 Interrupts .................................................................................................................... 47 
+1.8.1 Interrupts of unSP-1.0 and unSP-1.1 .............................................................. 47 
+1.8.2 Interrupts of unSP-1.2 ..................................................................................... 48 
+1.8.3 Interrupts of unSP-1.3 ..................................................................................... 52 
+1.8.4 Interrupts of unSP-2.0 ..................................................................................... 55 
+1.9 Data Types ................................................................................................................. 61 
+1.10 ALU Operation Types.............................................................................................. 61 
+1.11 Conditional Branches ............................................................................................... 62 
+2 unSP- 1.1 Instruction Set ...................................................................................................... 64 
+2.1 nSP Instructions Classification ........................................................................... 64 
+2.1.1 Notation........................................................................................................... 64 
+2.1.2 Instruction Classification ................................................................................ 65 
+2.2 nSP  Instruction Format .................................................................................... 65 
+2.3 unSP-1.1 Instruction Set ............................................................................................ 67 
+2.3.1 Data-Transfer Instructions .............................................................................. 67 
+2.3.2 Arithmetic/Logical-Operation Instructions ..................................................... 71 
+2.3.3 Transfer-Control Instructions.......................................................................... 86 
+2.3.4 Miscellaneous Instructions.............................................................................. 90 
+3 unSP -1.0 Instruction Set ...................................................................................................... 94 
+3.1 General Description ................................................................................................... 94 
+3.2 unSP-1.0 Instruction Cycles ....................................................................................... 94 
+4 unSP -1.2 Instruction Set .................................................................................................... 106 
+4.1 unSP-1.2 Instruction Set .......................................................................................... 106 
+4.1.1 Data-Transfer Instructions ............................................................................ 106 
+4.1.2 Data Processing Instructions ......................................................................... 109 
+4.1.3 Data Segment Access Instruction ................................................................. 129 
+4.1.4 Transfer-Control Instructions........................................................................ 130 
+4.1.5 Miscellaneous Instructions............................................................................ 134 
+4.1.6 Instruction Set Summary .............................................................................. 137 
+5 unSP-1.3 Instruction Set ..................................................................................................... 139 
+5.1 unSP-1.3 Instruction Set .......................................................................................... 139 
+5.1.1 Byte Register Indirect ................................................................................... 139 
+
+--- PAGE 5 ---
+ 'nSP  Programmers Guide  
+ 
+ Generalplus Technology Inc. PAGE 5  V1.0 November 26, 2007 
+ 
+5.1.2 Byte Indexed Address ................................................................................... 140 
+5.1.3 Byte Register Indexed Address ..................................................................... 140 
+5.1.4 Special Register Access ................................................................................ 141 
+6 unSP-2.0 Instruction Set ..................................................................................................... 144 
+6.1 unSP-2.0 Instruction Cycles ..................................................................................... 144 
+6.1.1 Data-Transfer Instructions ............................................................................ 144 
+6.1.2 Data Processing Instructions ......................................................................... 145 
+6.1.3 Data Segment Access Instruction ................................................................. 154 
+6.1.4 Transfer-Control Instructions........................................................................ 155 
+6.1.5 Miscellaneous Instructions............................................................................ 157 
+6.2 New Instructions of unSP-2.0 Instruction Set .......................................................... 159 
+6.2.1 Data-Transfer Instructions ............................................................................ 159 
+6.2.2 Data Processing Instructions ......................................................................... 162 
+6.2.3 Instruction Set Summary .............................................................................. 171 
+6.3 Stall Condition ......................................................................................................... 175 
+7 Appendix A Difference Between un S P- 1.2 & unSP- 1.3 ................................................ 180 
+8 Appendix B Difference Between un S P- 2.0 & unSP- 1.2 ................................................ 181 
+9 Appendix C Comparison Between nSP  Versions ..................................................... 182 
+10 Appendix D CPU Cycle Formula and Examples .............................................................. 184 
+c.1 unSP 1.2 Cycle Formula .......................................................................................... 184 
+c.2 unSP 1.3 Cycle Formula .......................................................................................... 187 
+c.2 unSP 2.0 Cycle Formula .......................................................................................... 190 
+ 
+
+--- PAGE 6 ---
+ 'nSP  Programmers Guide  
+ 
+ Generalplus Technology Inc. PAGE 6  V1.0 November 26, 2007 
+ 
+Revision History  
+Revision Date Revised By Remark 
+V1.0 2007/11/26 Summer Yi Original 
+
+--- PAGE 7 ---
+ 'nSP  Programmers Guide  
+ 
+ Generalplus Technology Inc. PAGE 7  V1.0 November 26, 2007 
+ 
+1 Introduction 
+1.1 General Description 
+The nSP, pronounced as micro-n-S-P, is the first 16-bit microprocessor developed by Generalplus. 
+Not only does the nSP  perform general operations such as addition, subtraction and other logical 
+operations, but it also supports multiplication and inner-product operations for digital signal processing. 
+Now, the nSP  has a series of version named unSP 1.0, unSP 1.1, unSP 1.2, unSP 1.3 and unSP 2.0. 
+1.2 Pin Diagram 
+1.2.1 Pin Diagram and Description of unSP-1.2 
+ Pin Diagram 
+ 
+Figure 1.1 
+ Pin Description 
+Table 1.1 
+Name I/O Description Number 
+CLK INPUT External clock 1 
+RES INPUT External reset 1 
+FIQ INPUT Fast interrupt request 1 
+IRQ INPUT Normal interrupt request 1 
+IRQS INPUT Normal interrupt request select 3 
+DMAQ INPUT DMA request 1 
+MRDY INPUT Memory data ready signal 1 
+TEST INPUT Test mode select pins 2 
+
+--- PAGE 8 ---
+ 'nSP  Programmers Guide  
+ 
+ Generalplus Technology Inc. PAGE 8  V1.0 November 26, 2007 
+ 
+Name I/O Description Number 
+HDUMPROM INPUT Dump internal ROM to memory bus 1 
+SLEEP INPUT Sleep mode 1 
+PD INPUT Power down mode 1 
+ADDR OUTPUT Address bus 22 
+PREB OUTPUT Memory pre-charge signal 1 
+RDB OUTPUT Memory read enable signal 1 
+WEB OUTPUT Memory write enable signal 1 
+WREN OUTPUT Memory accessing mode 1 
+DMACK OUTPUT DMA acknowledge 1 
+CHOLD OUTPUT CPU stall signal 1 
+EXTA OUTPUT Access data with DS 1 
+LDOP OUTPUT Fetch instruction into CPU 1 
+INTS OUTPUT CPU operation mode 4 
+DATA INOUT Data bus 16 
+1.2.2 Pin Diagram and Description of unSP-1.3 
+ Pin Diagram
+ 
+Figure 1.2 
+
+--- PAGE 9 ---
+ 'nSP  Programmers Guide  
+ 
+ Generalplus Technology Inc. PAGE 9  V1.0 November 26, 2007 
+ 
+ Pin Description 
+Table 1.2 
+Name I/O Description Number 
+CLK INPUT External clock 1 
+RES INPUT External reset 1 
+FIQ INPUT Fast interrupt request 1 
+IRQ INPUT Normal interrupt request 1 
+IRQS INPUT Normal interrupt request select 3 
+DMAQ INPUT DMA request 1 
+MRDY INPUT Memory data ready signal 1 
+TEST INPUT Test mode select pins 2 
+INT_BASE INPUT Interrupt vector base address 10 
+HDUMPROM INPUT Dump internal ROM to memory bus 1 
+SLEEP INPUT Sleep mode 1 
+PD INPUT Power down mode 1 
+ADDR OUTPUT Address bus 22 
+RAM_LBE OUTPUT Upper byte Enable 1 
+RAM_UBE OUTPUT Lower byte Enable 1 
+ADDR_CHANGE_B OUTPUT Address change signal 1 
+STACK_ACCESS OUTPUT Indicate that CPU is accessing stack 1 
+PREB OUTPUT Memory pre-charge signal 1 
+RDB OUTPUT Memory read enable signal 1 
+WEB OUTPUT Memory write enable signal 1 
+WREN OUTPUT Memory accessing mode  1 
+DMACK OUTPUT DMA acknowledge 1 
+CHOLD OUTPUT CPU stall signal 1 
+EXTA OUTPUT Access data with DS 1 
+LDOP OUTPUT Fetch instruction into CPU 1 
+INTS OUTPUT CPU operation mode 4 
+DATA INOUT Data bus 16 
+
+--- PAGE 10 ---
+ 'nSP  Programmers Guide  
+ 
+ Generalplus Technology Inc. PAGE 10  V1.0 November 26, 2007 
+ 
+1.2.3 Pin Diagram and Description of unSP-2.0 
+ Pin Diagram 
+ 
+Figure 1.3 
+ 
+ Pin Description 
+Table 1.3 
+Name I/O Description Number 
+CLK Input CPU clock 1 
+RESET_B Input CPU reset 1 
+FIQ_B Input Fast interrupt request (level trigger) 1 
+IRQ_B Input Interrupt request (level trigger) 1 
+IRQS Input Interrupt request source 3 
+TEST Input Test mode select 2 
+INST_ADDR Output Instruction Bus address 22 
+INST_DI Input Instruction Bus data input 16 
+INST_DO Output Instruction Bus data output 16 
+INST_RD_B Output Instruction Bus read enable signal 1 
+INST_WE_B Output Instruction Bus write enable signal 1 
+INST_RDY Input Instruction Bus ready signal 1 
+DATA_ADDR Output Data Bus address 22 
+DATA_DI Input Data Bus data input 16 
+DATA_DO Output Data Bus data output 16 
+DATA_RD_B Output Data Bus read enable signal 1 
+
+--- PAGE 11 ---
+ 'nSP  Programmers Guide  
+ 
+ Generalplus Technology Inc. PAGE 11  V1.0 November 26, 2007 
+ 
+DATA_WE_B Output Data Bus write enable signal 1 
+DATA_RDY Input Data Bus ready signal 1 
+BUS_FIGHT Input Instruction Bus & Data Bus access same 1 
+LDIR Output Load next instruction 1 
+1.3 Features 
+1.3.1 Features of unSP-1.0 and unSP-1.1 
+ 16-bit micro controller with DSP function 
+ Memory bus interface 
+ Address width: 22-bit 
+ Data width: 16-bit 
+ 4M words (8M bytes) memory space  
+ 64 banks/ 64k words per bank 
+ 8*16-bit registers 
+ 4 general registers (R1~R4) 
+ 4 system registers (SP, BP, SR, PC) 
+ 10 interrupts 
+ 1 fast interrupt (FIQ) 
+ 8 normal interrupt (IRQ0-IRQ7) 
+Software interrupt (BRK) 
+ 6 addressing modes 
+ Register Direct(R) 
+ Register Indirect ([R]) 
+ Immediate (IM6/IM16) 
+ Memory Absolute Address ([A6]/ [A16]/ 
+[A22]) Indexed Address ([BP+IM6]) 
+ PC Relatively (PC+IM6) 
+ 16-bit multiplication 
+ 2 operation modes: signed*signed, unsigned*signed 
+ 16-levels inner product operation 
+ 2 operation modes: signed*signed, unsigned*signed  
+ 4 guard bits to avoid overflow 
+ 
+Difference between unSP -1.0 and unSP- 1.1 
+UnSP - 1.1 is an enhanced version of unSP -1.0. The behaviors of CS and DS registers are changed to 
+facilitate large program execution and large data access. 
+
+--- PAGE 12 ---
+ 'nSP  Programmers Guide  
+ 
+ Generalplus Technology Inc. PAGE 12  V1.0 November 26, 2007 
+ 
+Table 1.4 
+ UnSP 1.0 unSP 1.1 
+GOTO instruction 
+The target address is 
+limited in current page 
+(16-bit, implemented 
+as PC=target_addr). 
+The target address can be any address in the 
+4M words memory (22-bit). 
+CS register 
+auto-increment/decrement 
+N/A 
+1. New feature 
+2. During program execution, PC will be 
+incremented by one continuously. If a carry 
+takes place, CS will be incremented by one. 
+3. Branch instruction versus PC is based on 
+the combination of CS and PC. The result 
+will be stored back to the CS and PC. 
+DS register 
+auto-increment/decrement 
+N/A 
+1. New feature. 
+2. In indirect addressing mode, if the D:[++Rs] / 
+D:[Rs++] / D:[Rs--] are used, these 
+operations are executed based on the 22-bit 
+register arithmetic and the final result is 
+stored back to DS and RS. 
+Instruction cycles Longer Generally speaking, most instruction cycles are 
+faster than unSP 1.0. 
+ 
+1.3.2 Features of unSP-1.2 
+ 16-bit micro controller with DSP function 
+ Memory bus interface 
+ Address width: 22-bit 
+ Data width: 16-bit 
+ 4M words (8M bytes) memory space  
+ 64 banks/ 64k words per bank 
+ 13*16-bit registers 
+ 4 general registers (R1~R4) 
+ 4 secondary registers (SR1~SR4) 
+ 4 system registers (SP, BP, SR, PC)  
+ 1 flag register (FR) 
+ 10 interrupts 
+ 1 fast interrupt (FIQ) 
+ 8 normal interrupt (IRQ0-IRQ7) 
+ Support IRQ nested mode with user customized priority 
+Software interrupt (BRK) 
+ 6 addressing modes 
+ Register 
+ Immediate 
+ Direct 
+
+--- PAGE 13 ---
+ 'nSP  Programmers Guide  
+ 
+ Generalplus Technology Inc. PAGE 13  V1.0 November 26, 2007 
+ 
+ Indirect 
+ Multi-indirect 
+ Displacement 
+ 16-bit multiplication 
+ 3 operation modes: signed*signed, unsigned*signed, unsigned*unsigned 
+ Integer/Fraction mode 
+ 16-levels inner product operation 
+ 3 operation modes: signed*signed, unsigned*signed, unsigned*unsigned 
+ Integer/Fraction mode 
+ 4 guard bits to avoid overflow 
+ Non-restoring Division 
+ 32-bit dividend and 16-bit divisor 
+ Need 16 continuous operations (DIVS, DIVQ) to generate correct quotient 
+ Bit-operation 
+ Bit test/ set/ clear/ inverse operation 
+ Destination can be register or memory 
+ Effective-exponent detect operation 
+ 16-bit shift operation 
+Support 32-bit shift operation by combining 2 shift instructions 
+ Support DMA function 
+ Support power down/sleep mode 
+1.3.3 Features of unSP-1.3 
+The most significant difference between unSP 1.2 and unSP 1.3 is the byte addressing modes in 
+unSP1.3. 
+ 16-bit micro controller with DSP function 
+ Memory bus interface 
+ Address width: 22-bit 
+ Data width: 16-bit 
+ 4M words (8M bytes) memory space 
+ 64 banks/ 64k words per bank 
+ Byte accessing-mechanism with new addressing mode 
+ 14*16-bit and 1*6-bit registers 
+ 4 general registers (R1~R4) 
+ 4 secondary registers (SR1~SR4) 
+ 6 system registers (SS, MDS, SP, BP, SR, PC)  
+ 1 flag register (FR) 
+ 10 interrupts 
+
+--- PAGE 14 ---
+ 'nSP  Programmers Guide  
+ 
+ Generalplus Technology Inc. PAGE 14  V1.0 November 26, 2007 
+ 
+ 1 fast interrupt(FIQ) 
+ 8 normal interrupt(IRQ0-IRQ7) 
+ Support IRQ nested mode with user customized priority 
+ Software interrupt (BRK) 
+ 9 addressing modes 
+ Register 
+ Immediate 
+ Direct 
+ Indirect 
+ Multi-indirect 
+ Displacement 
+ Byte register indirect 
+ Byte indexed address 
+ Byte register indexed address 
+ 16-bit multiplication 
+ 3 operation modes: signed*signed, unsigned*signed, unsigned*unsigned 
+ Integer/Fraction mode 
+ 16-levels inner product operation 
+ 3 operation modes: signed*signed, unsigned*signed, unsigned*unsigned 
+ Integer/Fraction mode 
+ 4 guard bits to avoid overflow 
+ Non-restoring Division 
+ 32-bit dividend and 16-bit divisor 
+ 16 continuous operations (DIVS, DIVQ) or only one operation (DIVSS, DIVUU) to generate 
+correct quotient. 
+ Bit-operation 
+ Bit test/ set/ clear/ inverse operation 
+ Destination can be register or memory 
+ 2 address mode (direct, indirect) for memory access. 
+ Effective-exponent detect operation 
+ 16-bit shift operation 
+Support 32-bit shift operation by combining 2 shift instructions 
+ Support DMA function 
+ Support power down/sleep mode 
+1.3.4 Features of unSP-2.0 
+ 16-bit micro controller with DSP function 
+
+--- PAGE 15 ---
+ 'nSP  Programmers Guide  
+ 
+ Generalplus Technology Inc. PAGE 15  V1.0 November 26, 2007 
+ 
+ unSP 1.2 binary compatible 
+ Modified Harvard architecture 
+ Instruction memory bus (IM): addr: 22-bit / data: 16-bit 
+ 64 banks / 64k words per bank 
+ Data memory bus (DM): addr: 22 bits / data: 16-bit 
+64 banks / 64k words per bank 
+ 2 configurations 
+ IM/DM share 4M words memory space (default) 
+ IM/DM own separate 4M words memory space (Not recommended. Assembler and linker do 
+not support overlapped address of IM and DM.) 
+ ~4-stage pipelined architecture    
+  IF (Instruction Fetch)  
+  DE (Decode) 
+ MR (Memory Read Access) 
+ EX/MW (Execution/Memory Write) 
+ 21*16-bit registers 
+ 4 general registers (R1-R4) 
+ 4 secondary-bank registers for interrupt (SR1-SR4) 
+ 1 base address register (BP) 
+ 3 system registers (SP, SR, PC) 
+ 1 inner flag register (FR) 
+ 8 extended registers (R8-R15) 
+ 10 interrupt sources 
+ 1 fast interrupt (FIQ) 
+ 8 normal interrupts (IRQ) 
+ 1 software interrupt (BRK) 
+ Support IRQ nested mode with priority 
+ 6 addressing modes 
+ Register 
+ Immediate (I6/I16) 
+ Direct (A6/A16) 
+ Indirect + auto indexing address (DS indirect) 
+ Displacement (BP+IM6) 
+ Multiple indirect (PUSH/POP) 
+ 16-bit multiplication 
+ 3 operation modes: signed*signed, unsigned*signed, unsigned*unsigned 
+ Integer / Fraction modes 
+
+--- PAGE 16 ---
+ 'nSP  Programmers Guide  
+ 
+ Generalplus Technology Inc. PAGE 16  V1.0 November 26, 2007 
+ 
+ 16-levels inner product operation 
+ 1 cycle MAC (multiplier/accumulator) unit 
+ 3 operation modes: signed*signed, unsigned*signed, unsigned*unsigned  
+ 4 guard bits to avoid overflow 
+ Integer / Fraction modes 
+ Non-restoring division 
+ 32-bit dividend and 16-bit divisor 
+ Need 16 continuous operations (DIVS, DIVQ) to generate correct quotient 
+ Effective-exponent detect operation 
+ Bit operations 
+ Support 4 operations: test, set, clear, inverse. 
+ Destination can be register or memory. 
+ 2 address mode (direct, indirect) for memory access. 
+ 16-bit shift operation 
+ 1 cycle log-shifter 
+ Support 32-bit shift operation by combining 2 shift instructions. 
+1.4 Architecture 
+1.4.1 Architecture of unSP-1.0 and unSP-1.1 
+The design goal of unSP 1.0 and unSP 1.1 is to achieve high performance with low cost. It uses the 
+traditional multi-cycle architecture. The organization of unSP 1.0 and unSP 1.1 is illustrated as below. The 
+principal components are: 
+ The general registers (R1-R4) and the system registers (SP, BP, SR, PC) in the register bank. 
+ The data register (DR), which store the data. 
+ The address generator unit (AGU), which selects and holds all memory address and generate 
+sequential address when required. 
+ The shifter, which can shift or rotate one operand by any number of 4-bit. 
+ The ALU, which performs the arithmetic and logic functions required by current instruction. 
+
+--- PAGE 17 ---
+ 'nSP  Programmers Guide  
+ 
+ Generalplus Technology Inc. PAGE 17  V1.0 November 26, 2007 
+ 
+ 
+Figure 1.4 
+ 
+1.4.2 Architecture of unSP-1.2 
+The design goal of unSP 1.2 is to achieve high performance with low cost. It uses the traditional 
+multi-cycle architecture. The organization of unSP 1.2 is illustrated as below. The principal components 
+are: 
+ The register bank, which stores t he processor state. There are 4 general registers (R1 -R4), 4 
+secondary bank registers (SR1-SR4), 4 system registers (SP, BP, SR, PC) and 1 flag register (FR) in 
+the register bank. 
+ The instruction register (IR), which store the current instruction fetched from data bus. The decoder 
+will generate all control signals for data path according to the instruction register. 
+ The data register (DR), which store the second word of current instruction if instruction length is 2 
+words. 
+ The address generator unit (AGU), which selects and holds all memory address and generate 
+sequential address when required. 
+ The shifter, which can shift or rotate one operand by any number of 4-bit. 
+ The ALU, which performs the arithmetic and logic functions required by current instruction. 
+ 
+ 
+ 
+ 
+
+--- PAGE 18 ---
+ 'nSP  Programmers Guide  
+ 
+ Generalplus Technology Inc. PAGE 18  V1.0 November 26, 2007 
+ 
+ 
+Figure 1.5 
+1.4.3 Peripheral Interface of unSP-1.2 
+ DMA Timing 
+ 
+ 
+ 
+
+--- PAGE 19 ---
+ 'nSP  Programmers Guide  
+ 
+ Generalplus Technology Inc. PAGE 19  V1.0 November 26, 2007 
+ 
+ DMAQ: DMA request, active high. 
+ DMACK: when CPU accept DMA request from DMAQ, it will reply DMACK signal and release 
+address, data bus, preb, web, rdb, wren signals after last memory access. 
+ 
+The longest delay without memory waiting cycle from DMAQ request to DMACK reply TDMA <= 3 
+ 
+clock cycles (max cycles for instruction to access memory) 
+ 
+ SLEEP Timing 
+ 
+ CK: CPU internal clock.  
+ SLEEP will stall the CPU clock at high and keep address, data, preb, rdb, web, wren at 
+origin value. 
+ 
+
+--- PAGE 20 ---
+ 'nSP  Programmers Guide  
+ 
+ Generalplus Technology Inc. PAGE 20  V1.0 November 26, 2007 
+ 
+PD will stall the CPU clock at high and release the address, data bus, preb, rdb, web, wren signals. 
+ HDUMPROM Timing 
+ 
+Figure 1.9 
+HdumpROM is used to dump memory content from current address. If you want to du mp all 
+memory content to data bus, you can use RESET and HdumpROM signal. After reset and keep 
+HdumpROM at high, the memory content from 0x000000 ~ 0x3FFFFF will be dumped to memory 
+bus contiguously every 2 cycles. 
+ 
+1.4.4 Architecture of unSP-1.3 
+The design goal of unSP 1.3 is to achieve high performance with low cost. It uses the traditional 
+multi-cycle architecture. The organization of unSP 1.3 is illustrated as below. The principal components 
+are: 
+ The register bank, which stores the processor state. Ther e are 4 general registers (R1 -R4), 4 
+secondary bank registers (SR1 -SR4), 6 system registers (SS, SP, MDS, BP, SR, PC) and 1 flag 
+register (FR) in the register bank. 
+ The instruction register (IR), which store the current instruction fetched from data bus. The decoder 
+will generate all control signals for data path according to the instruction register. 
+ The data register (DR), which store the second word of current instruction if instruction length is 2 
+words. 
+ The address generator unit (AGU), which selects a nd holds all memory address and generate 
+sequential address when required. 
+ The shifter, which can shift or rotate one operand by any number of 4-bits. 
+ The ALU, which performs the arithmetic and logic functions required by current instruction. 
+
+--- PAGE 21 ---
+ 'nSP  Programmers Guide  
+ 
+ Generalplus Technology Inc. PAGE 21  V1.0 November 26, 2007 
+ 
+ 
+Figure 1.1 0 
+
+--- PAGE 22 ---
+ 'nSP  Programmers Guide  
+ 
+ Generalplus Technology Inc. PAGE 22  V1.0 November 26, 2007 
+ 
+1.4.5 Architecture of unSP-2.0 
+unSP2.0 is a 4-stage pipeline architecture. Its organization is illustrated as below. The principal 
+components are: 
+ The register bank, which stores the processor state. There are 4 general registers (R1 -R4), 4 
+secondary b ank registers (SR1 -SR4), 4 system registers (SP, BP, SR, PC), 8 extend registers 
+(R8~R15) and 1 flag register (FR) in the register bank. 
+ The instruction register (IR), which stores the current instruction fetched from instruction bus. The 
+decoder will generate all control signals for data path according to the instruction register. 
+ The parameter register (PR), which stores the second word of current instruction if instruction 
+length is 2 words. 
+ The instruction address generator unit (IAG), which selects and holds all instruction address 
+and generate sequential address when required. 
+ The data address generator unit (DAG), which generate and hold all data address. 
+ The Shifter, which can shift or rotate one operand by any number of 4-bit. 
+ The ALU, which performs the arithmetic and logic functions required by current instruction. 
+ The MAC, which performs the multiplication and accumulate functions required by current 
+instruction. 
+ 
+
+--- PAGE 23 ---
+ 'nSP  Programmers Guide  
+ 
+ Generalplus Technology Inc. PAGE 23  V1.0 November 26, 2007 
+ 
+1.4.6 Pipeline Feature of unSP-2.0 
+unSP 2.0 employs a simple 4-stage pipeline with the following pipeline stages: 
+ Fetch: 
+The instruction is fetched from memory and placed in the instruction registers. 
+ Decode: 
+The instruction is decoded and the data-path control signals prepared for the next cycle. If current 
+instruction needs to read data from memory, the access address will be generated and issued in 
+this stage. 
+ Memory Read: 
+Waiting state for memory read access. If current instruction needs performing shift operation, it will be 
+done in this stage. 
+ Execution / Memory Write: 
+All ALU operations, multiplication are executing in this stage and the result will be write back to 
+register or memory at the next cycle, if current instruction need to write data to memory, the access 
+address will be generated and issued in this stage. 
+ 
+At any one time, four different instructions may occupy each of these stages 
+ 
+Figure 1.12 
+
+--- PAGE 24 ---
+ 'nSP  Programmers Guide  
+ 
+ Generalplus Technology Inc. PAGE 24  V1.0 November 26, 2007 
+ 
+1.5 Register 
+1.5.1 Register of unSP-1.0 and unSP-1.1 
+unSP 1.0 and unSP 1.1 have eight 16-bit registers: Stack Pointer (SP), User Registers (R1, R2, R3, R4), 
+Based Pointer (BP), Status Register (SR) and Program Counter (PC). Please see Table 1.5 for details. 
+The concatenation of R3 and R4 forms a 32-bit register, MR, which is used as the destination register 
+for multiplication and inner-production. The Stack Pointer (SP) automatically increases (POP) or 
+decreases (PUSH) as the nSP  performing push/pop, subroutine call or interrupt operations. The 
+stack size is limited to 64K, i.e., 0x000000 ~ 0x00FFFF. Since unSP 1.0 and unSP 1.1 are able to address 
+4M-word locations, additional 6 bits are needed to construct a 22-bit address from a 16-bit register for 
+fetching instructions (OP codes) and data accessing purposes. These 6 bits reside in the SR register, 
+which contains the Code Segment (CS) and the Data Segment (DS) fields. Therefore, both code 
+addresses and data addresses can be represented in 22 bits. 
+In unSP 1.0, the value in CS will not be changed by sequential execution and conditional branch when 
+crossing page boundaries. This behavior limits each code section cannot be larger than 64K words. Only 
+call instruction and interrupts can change CS. The DS will not be changed by pre -increment addressing, 
+post-increment addressing and post-decrement addressing modes. This behavior limits each data section 
+cannot be larger than 64K words. For example, suppose CS is 0x03 and PC is 0xFFFF, the next 
+instruction fetched by the nSP  is located at CS:PC = 0x030000, not 0x040000. 
+In unSP 1.1, the content of total 22 bits formed by CS or DS and a register will be changed accordingly 
+when crossing page boundaries. Thus the 64K limitation is removed. 
+ 
+Table 1.5 unSP 1.0 and unSP 1.1 Registers 
+Register ID Name 
+0 (000) SP 
+1 (001) R1 
+2 (010) R2 
+3 (011) R3 
+4 (100) R4 
+5 (101) BP (R5) 
+6 (110) SR 
+7 (111) PC 
+1.5.2 Register of unSP1.2 
+ Registers Bank 
+unSP 1.2 adds 4 registers (SR1~SR4) for interrupt service routines to reduce the pu sh/pop effort. 
+User can use SECBANK On/Off instruction to switch register bank. If SECBANK mode is on, all 
+
+--- PAGE 25 ---
+ 'nSP  Programmers Guide  
+ 
+ Generalplus Technology Inc. PAGE 25  V1.0 November 26, 2007 
+ 
+access to R1~R4 will be redirected to SR1~SR4. The other registers, SP, BP, SR, PC and FR, 
+are not affected by the SECBANK On/Off instruction. 
+ 
+Figure 1.13 
+ Primary Bank 
+ Stack Pointer (SP) 
+ General Register (R1~R4) 
+ Base Pointer (BP) 
+ Status Register (SR) 
+ Program Counter (PC) 
+ Flag Register (FR) 
+ Secondary Bank 
+ Secondary Register (SR1~SR4) 
+ 
+ Status Register (SR) 
+ 
+F E D C B A 9 8 7 6 5 4 3 2 1 0 
+DS N Z S C CS 
+ Conditional Flag 
+ N: Negative flag, denotes the 16th bit of ALU result. 
+ Z: Zero flag, denotes whether the ALU result is zero. 
+ S: Sign flag, denotes the MSB(18th) bit of ALU result. 
+ C: Carry flag, denotes the 17th bit of ALU result 
+ Data Segment (DS) 
+ Data segment can be used to access memory large than 64K words memory space  
+ Code Segment (CS) 
+ Code segment can be used to fetch instruction location large than 64K words memory 
+space 
+ Code segment and Data segment will be updated automatically when the target address 
+
+--- PAGE 26 ---
+ 'nSP  Programmers Guide  
+ 
+ Generalplus Technology Inc. PAGE 26  V1.0 November 26, 2007 
+ 
+crossing segment boundary. 
+ Flag Register (FR) 
+F E D C B A 9 8 7 6 5 4 3 2 1 0 
+- AQ BNK FRA FIR SB FIQ IRQ INE PRI 
+ AQ: DIVS/DIVQ AQ flag, default is 0. 
+ BNK: Register bank, default is 0 (PRIBANK). 
+ FRA: Fraction mode, default is 0 (OFF). 
+ FIR: FIR move mode, default is 0 (FIR_MOVE ON). 
+ SB: Shift buffer/guard bits, default is 4b0000. 
+ FIQ: FIQ Enable, default is 0 (Disable) 
+ IRQ: IRQ Enable, default is 0 (Disable) 
+ INE: IRQ nest mode, default is 0 (OFF) 
+ PRI: IRQ priority register, default is 4b1000 after  reset. If IRQ nest mode is On and any IRQ 
+occurred, PRI register will be set as the IRQ priority before CPU executing IRQ service routine. 
+Only the IRQ with higher priority can interrupt it. User can customize the IRQ nest behavior by 
+setting the priority register. 
+Priority: IRQ0 > IRQ1 > IRQ2 > IRQ3 > IRQ4 > IRQ5 > IRQ6 > IRQ7 
+Note: FIQ still has highest priority than any IRQ if FIQ is enabled. 
+For example: 
+ If PRI is 4b1000, IRQ0-7 are enabled 
+ If PRI is 4b0000, IRQ0-7 are disabled 
+ If IRQ3 occurred, PRI will be set to 0011. Only IRQ0-2 are enabled. 
+1.5.3 Register of unSP-1.3 
+ Registers Bank 
+As unSP 1.2, unSP 1.3 contains 4 registers (SR1~SR4) for interrupt service routine to reduce the 
+push/pop effort. User can use SECBANK On/Off instruction to switch regi ster bank. If SECBANK 
+mode is on, all access to R1~R4 will be redirected to SR1~SR4. The other registers, SP, BP, SR, 
+PC, FR, SS and MDS, are not affected by the SECBANK On/Off instruction. 
+
+--- PAGE 27 ---
+ 'nSP  Programmers Guide  
+ 
+ Generalplus Technology Inc. PAGE 27  V1.0 November 26, 2007 
+ 
+ 
+Figure 1.14 
+ Primary Bank 
+ Stack Pointer (SP) 
+ General Register (R1~R4) 
+ Base Pointer (BP) 
+ Status Register (SR) 
+ Program Counter (PC) 
+ Flag Register (FR) 
+ Stack Segment Register (SS) 
+ Inner Product Operation Data Segment (MDS) 
+ Secondary Bank 
+ Secondary Register (SR1~SR4) 
+ Status Register (SR) 
+F E D C B A 9 8 7 6 5 4 3 2 1 0 
+DS N Z S C CS 
+ Conditional Flag 
+ N: Negative flag, denotes the 16th bit of ALU result. 
+ Z: Zero flag, denotes whether the ALU result is zero. 
+ S: Sign flag, denotes the MSB(18th) bit of ALU result. 
+ C: Carry flag, denotes the 17th bit of ALU result 
+ Data Segment (DS) 
+ Data segment can be used to access memory large than 64K words memory space  
+ Code Segment (CS) 
+ Code segment can be used to fetch instruction location large than 64K words memory 
+
+--- PAGE 28 ---
+ 'nSP  Programmers Guide  
+ 
+ Generalplus Technology Inc. PAGE 28  V1.0 November 26, 2007 
+ 
+space 
+ Code segment and Data segment will be updated automatically when the target 
+address crossing segment boundary. 
+ Flag Register (FR) 
+F E D C B A 9 8 7 6 5 4 3 2 1 0 
+AdE AQ BNK FRA FIR SB FIQ IRQ INE PRI 
+ Ade: Byte-mode instruction address alignment error. 
+ AQ: DIVS/DIVQ AQ flag, default is 0. 
+ BNK: Register bank, default is 0 (PRIBANK). 
+ FRA: Fraction mode, default is 0 (OFF). 
+ FIR: FIR MOVE mode, default is 0 (FIR Move On). 
+ SB: Shift buffer/guard bits, default is 4b0000. 
+ FIQ: FIQ Enable, default is 0 (Disable) 
+ IRQ: IRQ Enable, default is 0 (Disable) 
+ INE: IRQ nest mode, default is 0 (OFF) 
+ PRI: IRQ priority register, default is 4b1000 after reset. If IRQ nest mode is On and any 
+IRQ occurred, PRI register will be set as the IRQ priority before CPU executing IRQ service 
+routine. Only the IRQ with higher priority can interrupt it. User can customize the IRQ nest 
+behavior by setting the priority register. 
+Priority: IRQ0 > IRQ1 > IRQ2 > IRQ3 > IRQ4 > IRQ5 > IRQ6 > IRQ7 
+Note: FIQ still has highest priority than any IRQ if FIQ is enabled. 
+For example: 
+ If PRI is 4b1000, IRQ0-7 are enabled 
+ If PRI is 4b0000, IRQ0-7 are disabled 
+ If IRQ3 occurred, PRI will be set to 0011. Only IRQ0-2 are enabled. 
+ Stack Segment Register 
+The stack segment register (SS) is added to expand the size of stack. The size of SS is 6 bits. After reset, 
+all bits of SS are cleared to be zero. The behavior of following stack related operations are changed.  
+ PUSH RH, RL to [Rs] 
+The destination where R H ~ RL are pushed in a 22 -bit address: {SS:Rs} 2 1 ~ 0. That is, higher 6 
+bits in SS and lower 16 bits in Rs. After the push operation, {SS:Rs}2 1 ~ 0 is decremented by the 
+number of registers pushed. 
+ POP RL, RH from [Rs] 
+Increment {SS:Rs}2 1 ~ 0 by 1. Move the content at {SS:Rs}2 1 ~ 0 to Rx. Increment {SS:Rs}2 1 ` 0  by 
+1.Move the content at {SS:Rs}2 1 ~ 0 to RL +1. Repeat these operations (RH  RL + 1) times.  
+ The effective address of [BP+n] addressing mode 
+
+--- PAGE 29 ---
+ 'nSP  Programmers Guide  
+ 
+ Generalplus Technology Inc. PAGE 29  V1.0 November 26, 2007 
+ 
+The effective address is {SS:Rs} 2 1 ~ 0 +n. Move the content at {SS:Rs} 2 1 ~ 0 to Rx. Increment 
+{SS:Rs}2 1 ~ 0 by 1.Move the content at {SS:Rs} 2 1 ~ 0 to R L +1. Repeat these operations (R H  
+RL + 1) ti mes. 
+If SS is zero, the behaviors of these operations are the same as before. 
+ Inner Product Operation Data Segment Register (MDS) 
+F E D C B A 9 8 7 6 5 4 3 2 1 0 
+0 0 SEG of Rd 0 0 SEG of Rs 
+ Inner product operation data segment (MDS) are added to specify the page numbers of the 
+two sources, Rd and Rs. 
+ The data of the two sources can cross the page boundary. When doing the MULS operation, the Rd 
+and Rs will be added one by one. The carry signal will propagate to these MDS. This causes that 
+the MDS are added by one when the value of Rd and Rs change from 0xFFFF to 0x0000. 
+ 
+1.5.4 Registers of unSP- 2.0 
+ Normal mode 
+There are 3 system registers (SP, SR, PC), 4 general registers (R1~R4) and 1 flag registers (FR) 
+can be used in normal mode for user program operation. 
+ Registers Bank 
+4 secondary bank registers (SR1~SR4) are added for interrupt service routines to reduce the 
+push/pop effort. User can use SECBANK On/Off instruction to switch register bank. If SECBANK 
+mode is on, all access to R1~R4 will be redirected to SR1~SR4. 
+ Extend Registers 
+unSP 2.0 add 8 extend registers (R8~R15) to reduce register swapping effort while executing 
+complicity operations to improve performance, 8 extend instruction types are also added to do ALU 
+operation between extend registers and memory or original registers sets (R0~PC). 
+ Primary Bank 
+ Stack Pointer (SP) 
+ General Register (R1~R4) 
+ Base Pointer (BP) 
+ Status Register (SR) 
+ Program Counter (PC) 
+ Flag Register (FR) 
+ Extend Register (R8~R15) 
+ Secondary Bank 
+ Secondary Register (SR1~SR4) 
+
+--- PAGE 30 ---
+ 'nSP  Programmers Guide  
+ 
+ Generalplus Technology Inc. PAGE 30  V1.0 November 26, 2007 
+ 
+ 
+Figure 1.15 
+ Status Register (SR) 
+F E D C B A 9 8 7 6 5 4 3 2 1 0 
+DS N Z S C CS 
+ Conditional Flag 
+ N:  Negative flag, denotes the 16th bit of ALU result.  
+ Z:  Zero flag, denotes whether the ALU result is zero.  
+ S:  Sign flag, denotes the MSB(18th) bit of ALU res ult. 
+ C:  Carry flag, denotes the 17th bit of ALU result  
+ Data Segment (DS) 
+ Data segment can be used to access memory large than 64K words memory space  
+ Code Segment (CS) 
+ Code segment can be used to fetch instruction location large than 64K words memory 
+space 
+ Code segment and Data segment will be updated automatically when the target address 
+crossing segment boundary. 
+ Flag Register (FR) 
+F E D C B A 9 8 7 6 5 4 3 2 1 0 
+- AQ BNK FRA FIR SB FIQ IRQ INE PRI 
+
+--- PAGE 31 ---
+ 'nSP  Programmers Guide  
+ 
+ Generalplus Technology Inc. PAGE 31  V1.0 November 26, 2007 
+ 
+ AQ: DIVS/DIVQ AQ flag, default is 0. 
+ BNK: Register bank, default is 0 (PRIBANK). 
+ FRA: Fraction mode, default is 0 (OFF). 
+ FIR: FIR MOVE mode, default is 0 (FIR Move On). 
+ SB: Shift buffer/Guard bits, default is 4b0000. 
+ FIQ: FIQ Enable, default is 0 (Disable) 
+ IRQ: IRQ Enable, default is 0 (Disable) 
+ INE: IRQ nest mode, default is 0 (OFF) 
+ PRI: IRQ priority register, default is 4b1000 after reset. If IRQ nest mode is On and any IRQ 
+occurred, PRI register will be set as the IRQ priority before CPU executing IRQ service routine. 
+Only the IRQ with higher priority can interrupt it. User can customize the IRQ nest behavior by 
+setting the priority register. 
+Priority: IRQ0 > IRQ1 > IRQ2 > IRQ3 > IRQ4 > IRQ5 > IRQ6 > IRQ7 
+Note: FIQ still has highest priority than any IRQ if FIQ is enabled. 
+For example: 
+ If PRI is 4b1000, IRQ0-7 are enable 
+ If PRI is 4b0000, IRQ0-7 are disable 
+ If IRQ3 occurred, PRI will be set to 0011. Only IRQ0-2 are enable. 
+1.6 Memory 
+1.6.1 Memory Map of nSP 
+The address map of nSP is divided by every 64K words (64K x 16 bits), called a page.  The first 
+page, PAGE0, corresponds to A[21:16]=0. The 4M-word (4096K) memory can be divided into total of 64 
+pages by A [21:16]=0x00 ~ 0x3F. The selection of page is defined by either a 6-bit Code Segment (CS) 
+or 6-bit Data Segment (DS) in Status Register  (SR), depends on execution opcode fetching or data 
+accessing 
+respectively. In memory mapping, PAGE0 is designed for storing data that is frequently accessed, e.g. 
+working memory or peripherals. The other pages (non-zero pages) are designed for storing program 
+codes or large chunk of data. 
+1.6.2 Memory Interface of unSP-1.2 
+The memory interface of unSP 1.2 is an asynchronous interface. Whenever the address transits, the 
+pre-charge (preb) signal will be pulled low 1 cycle to indicated the memory access and the read enable 
+signal (rdb) or write enable signal (web) will be pulled low at next cycle. The CPU may really need data at 
+the second or third cycle after the address transits, so the rdb may be kept 1 cycle or 2 cycles low while 
+reading memory. If the memory bus is not ready for CPU accessing, the memory ready signal (MRDY) 
+must be pulled low to stall CPU accessing before the clock rising edge of rdb or web access cycle. 
+Besides the rdb and web signals, there is an additional signal (wren) indicating the memory read/write 
+
+--- PAGE 32 ---
+ 'nSP  Programmers Guide  
+ 
+ Generalplus Technology Inc. PAGE 32  V1.0 November 26, 2007 
+ 
+accessing within full memory access period. The detail timing diagrams are illustrated as below. 
+
+--- PAGE 33 ---
+ 'nSP  Programmers Guide  
+ 
+ Generalplus Technology Inc. PAGE 33  V1.0 November 26, 2007 
+ 
+ Memory read timing without CPU waiting ( 2 cycles) 
+ 
+Figure 1.16 
+ 
+ 
+ Memory read timing without CPU waiting ( 3 cycles) 
+ 
+ 
+ 
+ 
+Figure 1.17 
+ 
+ Memory read timing with CPU waiting (2 cycles) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+--- PAGE 34 ---
+ 'nSP  Programmers Guide  
+ 
+ Generalplus Technology Inc. PAGE 34  V1.0 November 26, 2007 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+waiting cycle read cycle 
+ 
+ 
+ 
+CPU memory 
+ 
+ 
+Figure 1.18 
+ 
+ 
+ Memory write timing without CPU waiting 
+ 
+ 
+ 
+Figure 1.19 
+ 
+ 
+ 
+ 
+ 
+ Memory write cycle with CPU waiting 
+ 
+ 
+ 
+ 
+
+
+--- PAGE 35 ---
+ 'nSP  Programmers Guide  
+ 
+ Generalplus Technology Inc. PAGE 35  V1.0 November 26, 2007 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+waiting cycle write cycle 
+ 
+CPU memory 
+ 
+Figure 1.20 
+ 
+ 
+WEB: Memory write enable, changes at clock rising edge, active low. 
+RDB: Memory read enable, changes at clock rising edge, active low. 
+PREB: Memory pre-charge signal, changes at clock rising edge, active low. 
+WREN: Memory write signal, changes within full memory access period, active high. 
+MRDY: Memory bus ready signal, triggered by external device, must be stable before the clock rising 
+edge of read/write cycle. 
+CHOLD: CPU internal stall signal. 
+1.6.3 Memory Architecture of unSP-1.3 
+The memory interface of unSP 1.3 is an asynchronous interface. Two cycles are needed for CPU to 
+access memory without external memory wait. At the first cycle, the pre-charge (preb) signal will be pulled 
+low 1 cycle to indicate memory accessing and the read enable signal (rdb) or write enable signal (web) 
+will be pulled low at next cycle. If the memory bus need more cycles to prepare data, the memory bus 
+ready signal (MRDY) should be pulled low to stall CPU accessing before end of read or write cycle. 
+Besides the rdb and web signals, there is an additional signal (wren) indicating the memory read/write 
+accessing within full memory access period. ADDR_CHANGE_B indicates the changing of memory 
+address. Byte mode signals RAM_LBE and RAM_UBE enable the lower byte and upper byte access, 
+respectively. The detail timing diagrams are illustrated as below. 
+ Memory read timing 
+
+--- PAGE 36 ---
+ 'nSP  Programmers Guide  
+ 
+ Generalplus Technology Inc. PAGE 36  V1.0 November 26, 2007 
+ 
+ 
+ Memory write timing  
+
+--- PAGE 37 ---
+ 'nSP  Programmers Guide  
+ 
+ Generalplus Technology Inc. PAGE 37  V1.0 November 26, 2007 
+ 
+ 
+Figure 1.22 
+1.6.4 Memory Architecture of unSP-2.0 
+unSP 2.0 uses a modified Harvard architecture to accelerate memory access. The memory bus is 
+separated into 2 parts, instruction and data bus. Program executing address is issued at instruction bus 
+and data access address is issued at data bus. 
+The memory mapping of a real chip may be divided into several parts including internal memory, external 
+memory, I/O memory,  etc. A memory controller customized by the user is need to manage the 
+memory bus allocation.
+
+--- PAGE 38 ---
+ 'nSP  Programmers Guide  
+ 
+ Generalplus Technology Inc. PAGE 38  V1.0 November 26, 2007 
+ 
+ 
+Figure 1.23 
+1.6.5 Memory Interface of unSP2.0 
+ Instruction Bus Read Timing 
+ 
+Figure 1.24 
+
+--- PAGE 39 ---
+ 'nSP  Programmers Guide  
+ 
+ Generalplus Technology Inc. PAGE 39  V1.0 November 26, 2007 
+ 
+ Data Bus Read Timing 
+ 
+Figure 1.25 
+ Data Bus Write Timing 
+ 
+Figure 1.26 
+ INST Bus and Data Bus Access Conflict Timing 
+
+--- PAGE 40 ---
+ 'nSP  Programmers Guide  
+ 
+ Generalplus Technology Inc. PAGE 40  V1.0 November 26, 2007 
+ 
+ 
+Figure 1.27 
+If INST Bus and Data Bus access the same memory space (IM/DM) concurrently, the Data Bus 
+will have higher priority than INST Bus. Thus only the Data Bus memory access will be accepted 
+and the memory content of DATA_ADDR is returned to the bus at next cycle. 
+The BUS_FIGHT signal will be pulled high to prevent the INST Bus from getting wrong data at 
+next cycle. If BUS_FIGHT signal is placed at high then the DATA Bus will release memory bus 
+and let INST Bus to get control of memory bus to prevent starvation condition. 
+CPU will fetch the data value on INST_DI and DATA_DI into internal registers at next clock 
+rising edge while INST_RDY and DATA_RDY are high, BUS_FIGHT is low. So the data input 
+must keep on bus until them being fetched into CPU. 
+ MULS Timing (FIR_MOV OFF, Rd, Rs index to separate memory space) 

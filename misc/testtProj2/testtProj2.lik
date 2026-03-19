@@ -1,0 +1,16 @@
+Version: 3.0
+Options: m37
+Obj: "C:\Program Files (x86)\Generalplus\unSPIDE_4.1.1\startupcode\startupD_Data.obj"
+Obj: "C:\Users\Max\Desktop\testtProj2\Debug\main.obj"
+Obj: "C:\Users\Max\Desktop\testtProj2\Debug\Resource.obj"
+Lib: "C:\Program Files (x86)\Generalplus\unSPIDE_4.1.1\library\CMacro\CMacro1232.lib"
+Output: "C:\Users\Max\Desktop\testtProj2\Debug\testtProj2.S37"
+;Locate: unSP_StartUp in "startupD_Data.obj" at F009 
+;Align: unSP_StartUp in "startupD_Data.obj" with 0 
+;Locate: unSP_Init in "startupD_Data.obj" at F00E 
+;Align: unSP_Init in "startupD_Data.obj" with 0 
+;Locate: CODE in "main.obj" at F033 
+;Align: CODE in "main.obj" with 0 
+;Locate: CODE in "_GPTag" of "CMacro1232.lib"  at F051 
+;Align: CODE in "_GPTag" of "CMacro1232.lib"  with 0 
+;Locate: __sn_init_table at F000 
